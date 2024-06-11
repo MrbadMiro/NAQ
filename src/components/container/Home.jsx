@@ -1,34 +1,58 @@
 import React from "react";
 import hero from "../../assets/hero.png";
-
+import { Hero_Section_bg,Hero_icon1,Hero_icon2,Hero_Arrow } from "../../assets";
 const Home = () => {
+	const sectionStyle = {
+		backgroundImage: `url(${Hero_Section_bg})`,
+		backgroundSize: "cover",
+		backgroundPosition: "center",
+		};
 	return (
-		<div className="w-full h-full mt-[100px] flex " id="home">
-			<div className="grid lg:grid-cols-2  relative gap-5">
+		<div className="w-full  h-[110vh]  flex " id="home" style={sectionStyle}>
+			<div className="grid lg:grid-cols-2 pt-28  relative gap-5">
 				{/* left side content*/}
-				<div className="order-2 px-2 lg:px-0 md:order-1 lg:pl-10 py-5 flex flex-col justify-center items-justify mt-4">
-					<p className="text-2xl font-bold font-Lora  md:text-[60px] leading-8 lg:leading-10 text-center text-slate-500 ">
-						Unleash Your Inner Queen with <span className=" md:text-[60px]  my-2 text-center font-Lora font-extrabold text-pink-700 ">
+				<div className="  px-2 lg:px-0   lg:pl-10 py-5 flex flex-col justify-center md:items-start items-center mt-4">
+					<div className="flex flex-col">
+						<p className=" mx-3 text-[#E24486] font-bold text-[20px] lg:text-[20px] font-cormorant md:text-left text-center">Welocome to NAQ</p>
+						<img src={Hero_Arrow} alt=""  className="w-[270px] h-[16px]"/>
+
+					</div>
+					<p className="text-[44px]  font-extrabold font-cormorant  md:text-[70px] leading-[50px] md:leading-[84px] md:text-left text-center text-[#0D0D0D] ">
+						Unleash Your Inner Queen with <span className="text-[#E24486]">
 						Nithiya's Active Queens.
 					</span>
 					</p>
 
 					
 
-					<p className="mt-4 mb-4 mx-3   text-[12px] lg:text-[16px]  text-justify">
+					<p className="mt-4 mb-4 mx-3  font-medium text-[14px] lg:text-[16px] font-cormorant md:text-left text-center">
 						From Mastering Makeup Artistry and Cake Decorating to Honing Your
 						Skills in Tailoring and Aari Embroidery, We Offer a Diverse Range of
 						Courses to Unlock Your Inner Queen.
 					</p>
 				</div>
-				<div className=" order-1 md:order-2 pr-0 h-full w-full flex items-center justify-center  ">
-					<div className="flex ">
+
+				{/* right Side */}
+				<div className="     h-full w-full flex items-center justify-center relative  ">
+					<div className="flex bottom-0 h-full  ">
 						<img
 							src={hero}
 							alt=""
-							className=" h-full lg:h-[500px]   object-cover w-[100%]      pb-0 pr-0"
+							className=" h-full   z-10  object-cover w-[100%] bottom-0      "
 						/>
 					</div>
+					<div className="absolute flex flex-col w-full items-center  justify-center left-1/2 transform -translate-x-1/2 bottom-0">
+					
+                            <img src={Hero_icon2} alt=""  className=" "/>
+							
+					</div>
+					<div className="absolute flex flex-col w-full items-center justify-center left-1/2 transform -translate-x-1/2 bottom-0">
+					
+                            <img src={Hero_icon1} alt="" />
+							
+					</div>
+
+
 				</div>
 			</div>
 		</div>

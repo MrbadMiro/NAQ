@@ -9,7 +9,7 @@ const NavLink = ({ href, link }) => {
         smooth={true}
         duration={500}
         offset={-50}
-        className="font-medium hover:text-pink-500 transition-all duration-300"
+        className="font-medium font-dm_sans hover:text-pink-500 transition-all duration-300"
       >
         {link}
       </Link>

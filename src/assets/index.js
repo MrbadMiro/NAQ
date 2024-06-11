@@ -1,9 +1,14 @@
 import logo from "./logo.png";
-import women from "./women-1.png";
-import courses_img1 from "./courses_img1.png";
-import courses_img2 from "./Courses_img2.png";
-import courses_img3 from "./Courses_img3.png";
-import courses_img4 from "./Courses_img4.png";
+
+import Hero_Section_bg from "./Section.svg";
+import Hero_icon1 from "./Hero_icon1.svg";
+import Hero_icon2 from "./Hero_icon2.png";
+import Hero_Arrow from "./Hero_Arrow.svg";
+
+import courses_img1 from "./Courses_img1.jpg";
+import courses_img2 from "./Courses_img2.jpg";
+import courses_img3 from "./Courses_img3.jpg";
+import courses_img4 from "./Courses_img4.jpg";
 import About_img from "./About.png";
 import Contact_img from "./Contact_img.jpg";
 import Signup_img from "./Signup.jpg";
@@ -13,12 +18,16 @@ import Footer_img3 from "./Footer_img3.jpg";
 import Footer_img4 from "./Footer_img4.jpg";
 import Footer_img5 from "./Footer_img5.jpg";
 import Footer_img6 from "./Footer_img6.jpg";
-import close   from "./close.svg"
-import menu from "./menu.svg"
+
+import menu from "./menu.svg";
 
 export {
 	logo,
-	women,
+
+	Hero_Section_bg,
+	Hero_icon1,
+	Hero_icon2,
+	Hero_Arrow,
 	courses_img1,
 	courses_img2,
 	courses_img3,
@@ -32,6 +41,5 @@ export {
 	Footer_img4,
 	Footer_img5,
 	Footer_img6,
-	close,
 	menu,
 };

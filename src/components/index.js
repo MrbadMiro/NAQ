@@ -6,10 +6,11 @@ import Contact2 from "./container/Contact2";
 import Testimonial from "./container/Testimonial";
 import Signup from "./container/Signup";
 import Footer from "./container/Footer";
+import Header from "./Navbar/Header";
 import Navbar from "./Navbar/Navbar";
 import Courses from "./container/Courses";
 export {
-	Navbar,
+	Header,
 	Home,
 	About,
 	Testimonial,

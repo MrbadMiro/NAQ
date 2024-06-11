@@ -1,6 +1,5 @@
-import Footer2 from "./components/container/Footer2";
-import {
-	Navbar,
+ import {
+	 
 	Home,
 	About,
 	Progress,
@@ -9,12 +8,13 @@ import {
 	Footer,
 	Courses,
 	Contact2,
+	Header,
 } from "./components/index";
 
 function App() {
 	return (
 		<div className="font-Poppins bg-Solitude">
-			<Navbar />
+			<Header/>
 			<Home />
 			<Courses />
 			<About />

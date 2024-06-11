@@ -3,9 +3,9 @@ module.exports = {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		fontFamily: {
-			Poppins: "Poppins",
-			inter:"inter",
-			Lora:"Lora"
+			cormorant: ["'Cormorant Garamond'", "serif"],
+			dm_sans: ['DM Sans', 'sans-serif'],
+			 
 		},
 		extend: {
 			colors: {
