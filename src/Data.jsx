@@ -17,7 +17,7 @@ import Footer_img5 from "./assets/Footer_img5.jpg";
 import Footer_img6 from "./assets/Footer_img6.jpg";
 
 import courses1 from "./assets/Courses_img1.jpg";
-import courses2 from "./assets/Courses_img2.jpg";
+import courses2 from "./assets/Courses_img1.jpg";
 import courses3 from "./assets/Courses_img3.jpg";
 import courses4 from "./assets/Courses_img4.jpg";
 import courses5 from "./assets/Courses_img5.jpg";
