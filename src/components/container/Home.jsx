@@ -43,7 +43,7 @@ const Home = () => {
 					</div>
 					<div className="absolute flex flex-col w-full items-center  justify-center left-1/2 transform -translate-x-1/2 bottom-0">
 					
-                            <img src={Hero_icon2} alt=""  className=" "/>
+                            <img src={Hero_icon2} alt=""  className=" drop-shadow-2xl"/>
 							
 					</div>
 					<div className="absolute flex flex-col w-full items-center justify-center left-1/2 transform -translate-x-1/2 bottom-0">

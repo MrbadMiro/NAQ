@@ -55,24 +55,23 @@ const About = () => {
 						<img src={About_Arrow2} alt="" />
 					</div>
 					<div className="flex flex-col w-full">
-					<p className="text-[48px] w-full font-bold font-cormorant  md:text-[48px] leading-[58.5px] md:leading-[58.5px] md:text-left text-center text-[#0D0D0D] ">
-						Dive into Artistic Excellence
+					<p className="  w-full font-extrabold font-cormorant  md:text-[38px] leading-[48.5px]   md:text-left text-center text-[#0D0D0D] ">
+						Dive into Artistic Excellence <br />
 						<span className="  text-pink-700">
 							Nithiya's Active Queens.
 						</span>
 					</p>
 
-					<p className="mt-4 mb-2 font-light text-[12px] lg:text-[14px]  text-center  text-wrap lg:text-left">
+					<p className="mt-[20px]  font-normal font-dm_sans  text-[16px]  leading-[28px] md:text-left text-center text-[#6E6E6E] ">
 						Nithiya's Active Queens offers a vibrant tapestry of courses
 						designed to ignite your creativity and empower your personal growth.
-					</p>
-					<p className="mt-2 mb-2 font-light text-[12px] lg:text-[14px]  text-center lg:text-left">
 						At NAQ Academy, we believe in transforming lives through the art of
 						beauty. Whether you're a budding entrepreneur or an aspiring makeup
 						artist, our courses are designed to empower you with the skills and
 						knowledge you need to thrive.
 					</p>
-					<p className="mt-2 mb-2 font-light text-[12px] lg:text-[14px]    text-center lg:text-left">
+					
+					<p className="mt-[20px]  font-normal font-dm_sans  text-[16px]  leading-[28px] md:text-left text-center text-[#6E6E6E]">
 						Join us and discover your true potential in the world of beauty.
 						Let's embark on this exciting journey together!
 					</p>

@@ -12,10 +12,20 @@ import About_leaves from "./About_leaves.svg";
 import About_flower from "./About_flower.svg";
 import About_Arrow2 from "./About_Arrow2.svg";
 
+//Courses
+
+
+import Courses_bg from "./Courses_bg.svg";
+import Courses_leaves from "./Courses_leaves.svg";
+
 import courses_img1 from "./Courses_img1.jpg";
 import courses_img2 from "./Courses_img1.jpg";
 import courses_img3 from "./Courses_img3.jpg";
 import courses_img4 from "./Courses_img4.jpg";
+
+
+//Gallery
+import Gallery_Arow from "./Gallery_Arow.svg";
 
 
 import About_img from "./About.png";
@@ -44,6 +54,11 @@ export {
 	About_flower,
     About_Arrow2,
 
+
+	//Courses
+	Courses_bg,
+	Courses_leaves,
+	Gallery_Arow,
 	courses_img1,
 	courses_img2,
 	courses_img3,

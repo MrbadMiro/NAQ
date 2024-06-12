@@ -1,3 +1,4 @@
+import Gallery from "./components/container/Gallery";
 import {
 	Home,
 	About,
@@ -17,7 +18,7 @@ function App() {
 			<Home />
 			<About />
 			<Courses />
-
+            <Gallery/>
 			<Progress />
 			<Contact />
 			{/* <Contact2/> */}
