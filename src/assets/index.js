@@ -13,9 +13,11 @@ import About_flower from "./About_flower.svg";
 import About_Arrow2 from "./About_Arrow2.svg";
 
 import courses_img1 from "./Courses_img1.jpg";
-import courses_img2 from "./Courses_img2.jpg";
+import courses_img2 from "./Courses_img1.jpg";
 import courses_img3 from "./Courses_img3.jpg";
 import courses_img4 from "./Courses_img4.jpg";
+
+
 import About_img from "./About.png";
 import Contact_img from "./Contact_img.jpg";
 import Signup_img from "./Signup.jpg";
