@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+  }
 @layer base {
 	.section {
 		@apply container mx-auto py-24 px-6;
