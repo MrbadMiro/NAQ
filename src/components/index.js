@@ -7,7 +7,6 @@ import Testimonial from "./container/Testimonial";
 import Signup from "./container/Signup";
 import Footer from "./container/Footer";
 import Header from "./Navbar/Header";
-import Header from "./Navbar/Header";
 import Gallery from "/container/Gallery";
 import Courses from "./container/Courses";
 export {

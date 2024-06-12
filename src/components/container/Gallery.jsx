@@ -23,6 +23,9 @@ const Gallery = () => {
             <div className="border  border-white py-2 px-2"><p className="text-center text-[14px]  font-bold font-dm_sans   leading-[26px]    text-white">Wellness</p></div>
             
           </div>
+          <div className="">
+
+          </div>
 				</div>
 			</div>
 		</div>
