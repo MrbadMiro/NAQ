@@ -6,7 +6,7 @@ import { BsCake } from "react-icons/bs";
 const Progress = () => {
     return (
         <section className="flex flex-col items-center justify-center w-full py-4 ">
-            <div className="pb-20  grid md:grid-cols-4 grid-cols-2 items-center justify-center text-pink-700 text-4xl sm:text-7xl md:gap-20 gap-10 md:px-24 px-6">
+            <div className="py-20  grid md:grid-cols-4 grid-cols-2 items-center justify-center text-pink-700 text-4xl sm:text-7xl md:gap-20 gap-10 md:px-12 px-6">
                 <div className="w-[150px] h-[150px] xs:w-[200px] xs:h-[200px] rounded-full bg-neutral-100 flex items-center justify-center">
                     <div className="w-inherit h-auto">
                         <FaPaintBrush className="w-full" />

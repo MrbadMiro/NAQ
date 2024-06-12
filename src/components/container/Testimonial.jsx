@@ -45,7 +45,7 @@ const Testimonial = () => {
 	};
 
 	return (
-		<section className="w-full bg-pink-50 flex flex-col items-center justify-center py-24 px-6 lg:px-20 lg:p-24 gap-6  ">
+		<section className="w-full bg-pink-50 flex flex-col items-center justify-center py-24 px-6 md:px-12 gap-6  ">
 			<h5 className=" text-pink-700  text-center p-2">Testimonials</h5>
 			<div className="flex w- full  flex-row item-center justify-center ">
 				<h3 className="text-3xl font-Lora text-center">

@@ -71,10 +71,10 @@ export const courses = [
 		image: courses1,
 		category: " Beauty & Style",
 		title: "Makeup & Hairstyling Essentials",
-		rating:3,
-		CoursePrice:4000,
-		OfferPrice:5000,
-		Place:"Killinochi",
+		rating: 3,
+		CoursePrice: 4000,
+		OfferPrice: 5000,
+		Place: "Killinochi",
 	},
 	{
 		id: 2,
@@ -82,9 +82,9 @@ export const courses = [
 		category: "Culinary Delights",
 		title: "Cake Baking & Decorating",
 		rating: 3,
-		CoursePrice:7777,
-		OfferPrice:4444,
-		Place:"Jaffna",
+		CoursePrice: 7777,
+		OfferPrice: 4444,
+		Place: "Jaffna",
 	},
 	{
 		id: 3,
@@ -92,9 +92,9 @@ export const courses = [
 		category: "Creative Crafts",
 		title: "Aari Embroidery",
 		rating: 3,
-		CoursePrice:12000,
-		OfferPrice:7000,
-		Place:"Killinochi",
+		CoursePrice: 12000,
+		OfferPrice: 7000,
+		Place: "Killinochi",
 	},
 	{
 		id: 4,
@@ -102,9 +102,9 @@ export const courses = [
 		category: "Creative Crafts",
 		title: "Tailoring",
 		rating: 3,
-		CoursePrice:17000,
-		OfferPrice:15000,
-		Place:"Mullaitivu",
+		CoursePrice: 17000,
+		OfferPrice: 15000,
+		Place: "Mullaitivu",
 	},
 	{
 		id: 5,
@@ -112,9 +112,9 @@ export const courses = [
 		category: "Beauty & Style",
 		title: "Henna",
 		rating: 3,
-		CoursePrice:30000,
-		OfferPrice:23000,
-		Place:"Jaffna",
+		CoursePrice: 30000,
+		OfferPrice: 23000,
+		Place: "Jaffna",
 	},
 	{
 		id: 6,
@@ -122,9 +122,9 @@ export const courses = [
 		category: "Beauty & Style",
 		title: " Jewelry Making",
 		rating: 3,
-		CoursePrice:30000,
-		OfferPrice:23000,
-		Place:"Killinochi",
+		CoursePrice: 30000,
+		OfferPrice: 23000,
+		Place: "Killinochi",
 	},
 	{
 		id: 7,
@@ -132,38 +132,88 @@ export const courses = [
 		category: "Wellness",
 		title: "Weight Loss and Fitness",
 		rating: 3,
-		CoursePrice:30000,
-		OfferPrice:23000,
-		Place:"Vavuniya",
+		CoursePrice: 30000,
+		OfferPrice: 23000,
+		Place: "Vavuniya",
+	},
+];
+
+export const Gallery_data = [
+	{
+		id: 1,
+		image: courses1,
+		tab: 1,
+	},
+	{
+		id: 2,
+		image: courses1,
+		tab: 1,
+	},
+	{
+		id: 3,
+		image: courses1,
+		tab: 1,
+	},
+	{
+		id: 4,
+		image: courses1,
+		tab: 1,
+	},
+	{
+		id: 5,
+		image: courses1,
+		tab: 2,
+	},
+	{
+		id: 5,
+		image: courses1,
+		tab: 2,
+	},
+	{
+		id: 6,
+		image: courses1,
+		tab: 2,
+	},
+	{
+		id: 7,
+		image: courses1,
+		tab: 3,
+	},
+	{
+		id: 8,
+		image: courses1,
+		tab: 4,
 	},
 ];
 
 export const data = [
-	{ 
-    id: 1,
-		quote: "Nithiya's Active Queens helped me discover my passion for makeup artistry. The instructors were incredibly supportive and the classes were so much fun!",
+	{
+		id: 1,
+		quote:
+			"Nithiya's Active Queens helped me discover my passion for makeup artistry. The instructors were incredibly supportive and the classes were so much fun!",
 		img: Testimonial_1, // Replace with actual image paths
 		name: "Mayuri M.",
 	},
 
 	{
-    id: 2,
-		quote: "Nithiya's cake decorating course took my skills to a whole new level. I learned amazing techniques and gained the confidence to create beautiful and delicious cakes for any occasion.",
+		id: 2,
+		quote:
+			"Nithiya's cake decorating course took my skills to a whole new level. I learned amazing techniques and gained the confidence to create beautiful and delicious cakes for any occasion.",
 		img: Testimonial_2, // Replace with actual image paths (if available)
 		name: "Kalavathi R.",
 	},
-	{ 
-    id: 3,
-		quote: "Thanks to Nithiya's Active Queens, I finally mastered the Art of Aari Embroidery. It's such a beautiful and rewarding craft, and I'm so proud of the pieces I've created.",
+	{
+		id: 3,
+		quote:
+			"Thanks to Nithiya's Active Queens, I finally mastered the Art of Aari Embroidery. It's such a beautiful and rewarding craft, and I'm so proud of the pieces I've created.",
 		img: Testimonial_3,
 		name: "Priya M.",
 	},
-	{ 
-    id: 4,
-		quote: "Nithiya's weight loss program was a game-changer for me. I learned healthy habits and strategies that helped me reach my goals and feel my best.",
-		img: Testimonial_2 ,
+	{
+		id: 4,
+		quote:
+			"Nithiya's weight loss program was a game-changer for me. I learned healthy habits and strategies that helped me reach my goals and feel my best.",
+		img: Testimonial_2,
 		name: "Sara L.",
 	},
 ];
-
-

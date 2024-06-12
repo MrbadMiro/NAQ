@@ -41,7 +41,7 @@ const Navbar = () => {
 
 	return (
 		<div
-			className={`fixed z-20 top-0 w-full flex md:px-12 px-6 border-b border-b-white border-opacity-20 transition-transform duration-300 ${
+			className={`fixed z-20 top-0 w-[100vw] flex  border-b border-b-white border-opacity-20 transition-transform duration-300 ${
 				isVisible ? "translate-y-0" : "-translate-y-full"
 			} ${isVisible && scrollY > 50 ? "boxShadow" : ""}`}
 			style={{
@@ -49,7 +49,7 @@ const Navbar = () => {
 			}}>
 			<div className="w-full">
 				<div
-					className={`container mx-auto flex items-center justify-between px-2 ${
+					className={` w-full md:px-12 px-6 flex items-center justify-between  ${
 						active ? "py-2 transition-all duration-300" : "py-3"
 					}`}>
 					<div className="flex items-center gap-4">
@@ -81,6 +81,8 @@ const Navbar = () => {
 							</button>
 						</ScrollLink>
 					</div>
+
+
 					{toggle && (
 						<motion.div
 							initial={{ x: -500, opacity: 0 }}
