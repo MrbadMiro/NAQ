@@ -1,5 +1,4 @@
- import {
-	 
+import {
 	Home,
 	About,
 	Progress,
@@ -13,11 +12,12 @@
 
 function App() {
 	return (
-		<div className="font-Poppins bg-Solitude">
-			<Header/>
+		<div className="font-Poppins  ">
+			<Header />
 			<Home />
-			<Courses />
 			<About />
+			<Courses />
+
 			<Progress />
 			<Contact />
 			{/* <Contact2/> */}

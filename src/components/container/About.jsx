@@ -1,5 +1,14 @@
 import React from "react";
 import about from "../../assets/About.png";
+import {
+	About_leaves,
+	About_flower,
+	courses_img1,
+	courses_img2,
+	courses_img3,
+	courses_img4,
+	About_Arrow2,
+} from "../../assets";
 
 const About = () => {
 	const facebookProfileUrl =
@@ -10,22 +19,45 @@ const About = () => {
 		window.location.href = facebookProfileUrl;
 	};
 	return (
-		<div className="section" id="about">
-			<div className="grid lg:grid-cols-2   gap-5">
-				<div className="overflow-hidden order-1  pr-0">
+		<div className="section relative mt-[250px] md:mt-0" id="about">
+			<img
+				src={About_leaves}
+				alt=""
+				className="absolute -right-[100px] -z-1 top-0 animate-bounce-slow"
+			/>
+			<div className="grid lg:grid-cols-2 w-full   ">
+				{/* left SIDE */}
+				<div className="flex  order-1 w-full  justify-end px-6 relative">
 					<img
-						className="run lg:h-[100] xs:h-[80] xs:w-[80] object-cover w-[100%] h-[100%] pb-0 pr-0"
-						src={about}
+						className=" h-[500px] w-[387px] object-cover rounded-t-[300px] "
+						src={courses_img3}
 						alt="Hero-image"
 					/>
+					<div className="absolute -left-4">
+						<img
+							className=" -z-10 h-[500px] w-[387px] object-cover rounded-t-[300px] -left-4  bottom-0  "
+							src={courses_img1}
+							alt="Hero-image"
+						/>
+						<img
+							src={About_flower}
+							alt=""
+							className="absolute left-[-180px] -bottom-12  z-10 animate-bounce-horizontal"
+						/>
+					</div>
 				</div>
-				<div className="order-2  flex flex-col justify-center lg:items-left items-center text-center lg:text-left">
-					<p className="  w-full text-[12px] lg:text-xl  md:text-xl italic font-normal text-pink-700">
-						About NAQ
-					</p>
-					<p className="text-2xl mt-2  font-bold font-Lora text-center lg:text-left md:text-3xl">
+				{/* Right Side */}
+				<div className="order-2  w-full flex flex-col justify-center   items-center md:items-start text-center lg:text-left">
+					<div className="flex gap-2 ">
+						<p className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
+							About NAQ
+						</p>
+						<img src={About_Arrow2} alt="" />
+					</div>
+					<div className="flex flex-col w-full">
+					<p className="text-[48px] w-full font-bold font-cormorant  md:text-[48px] leading-[58.5px] md:leading-[58.5px] md:text-left text-center text-[#0D0D0D] ">
 						Dive into Artistic Excellence
-						<span className="ml-2 lg:ml-4 font-Lora text:2xl lg:text-5xl text-pink-700">
+						<span className="  text-pink-700">
 							Nithiya's Active Queens.
 						</span>
 					</p>
@@ -44,6 +76,10 @@ const About = () => {
 						Join us and discover your true potential in the world of beauty.
 						Let's embark on this exciting journey together!
 					</p>
+
+					</div>
+
+				
 					<div className="w-full grid  sm:grid-cols-3  mt-4   item-center text-center lg:text-left">
 						<div className="w-full mb-2 ">
 							<h3 className="text-2xl font-bold md:text-4xl text-pink-700">

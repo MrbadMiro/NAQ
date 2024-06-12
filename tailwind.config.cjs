@@ -4,8 +4,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			cormorant: ["'Cormorant Garamond'", "serif"],
-			dm_sans: ['DM Sans', 'sans-serif'],
-			 
+			dm_sans: ["DM Sans", "sans-serif"],
 		},
 		extend: {
 			colors: {
@@ -13,14 +12,22 @@ module.exports = {
 				gray: "#F5F5F5",
 				Rose: "#D93A70",
 			},
-			animation: {
-				slide: "slide 25s linear infinite",
-			},
+
 			keyframes: {
 				slide: {
 					"0%,100%": { transform: "translateX(5%)" },
 					"50%": { transform: "translateX(-120%)" },
 				},
+				bounce_horizontal: {
+					"0%, 100%": { transform: "translateX(0)" },
+					"50%": { transform: "translateX(50px)" },
+				},
+			},
+			animation: {
+				"bounce-slow": " bounce 3s linear infinite",
+				"pulse-slow": " pulse 3s linear infinite",
+				slide: "slide 25s linear infinite",
+				'bounce-horizontal': 'bounce-horizontal 3s linear infinite',
 			},
 		},
 		screens: {

@@ -8,7 +8,7 @@ const Home = () => {
 		backgroundPosition: "center",
 		};
 	return (
-		<div className="w-full  h-[110vh]  flex " id="home" style={sectionStyle}>
+		<div className="w-full mb-2  h-[110vh]  flex " id="home" style={sectionStyle}>
 			<div className="grid lg:grid-cols-2 pt-28  relative gap-5">
 				{/* left side content*/}
 				<div className="  px-2 lg:px-0   lg:pl-10 py-5 flex flex-col justify-center md:items-start items-center mt-4">

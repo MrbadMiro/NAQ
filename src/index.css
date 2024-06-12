@@ -48,3 +48,19 @@ checkbox {
 
 
 /* text-[#BE185D] */
+
+
+/* styles.module.css */
+@keyframes bounce-horizontal {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px); /* Adjust this value as needed */
+  }
+}
+
+.bounce-horizontal {
+  animation: bounce-horizontal 3s linear infinite;
+}
+
