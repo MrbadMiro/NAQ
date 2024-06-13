@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Gallery_Arow,flower_2,Footer_img3 } from "../../assets";
+import { Gallery_Arow,flower_2,  } from "../../assets";
 import { Gallery_data } from "../../Data";
 
 const Gallery = () => {

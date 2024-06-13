@@ -19,6 +19,7 @@ import counter_1_4 from "./counter_1_4.svg";
 import flower_2 from "./flower_2.svg";
 import flower_3 from "./flower_3.svg";
 import flower_4 from "./flower_4.svg";
+import flower_5 from "./flower_4.svg";
 
 import Courses_bg from "./Courses_bg.svg";
 import Courses_leaves from "./Courses_leaves.svg";
@@ -65,6 +66,7 @@ export {
 	flower_2,
 	flower_3,
 	flower_4,
+	flower_5,
 	Courses_bg,
 	Courses_leaves,
 	Gallery_Arow,

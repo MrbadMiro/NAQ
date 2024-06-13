@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { data } from "../../Data";
 import { MdFormatQuote } from "react-icons/md";
 import { Link as ScrollLink } from "react-scroll";
-import { flower_3,flower_2,About_leaves,Courses_leaves,	flower_4, } from "../../assets";
+import { flower_3,flower_5,About_leaves,Courses_leaves,	flower_4, } from "../../assets";
 
 const Testimonial = () => {
 	var settings = {
@@ -46,9 +46,14 @@ const Testimonial = () => {
 	};
 
 	return (
-		<section className="w-full bg-pink-50 flex flex-col items-center  relative justify-center pt-[200px] pb-[200px] px-6 md:px-12 gap-6  ">
+		<section className="w-full   flex flex-col items-center  relative justify-center pt-[200px] pb-[200px] px-6 md:px-12 gap-6  ">
 			<img src={flower_4} alt=""  className="absolute top-0 left-0 opacity-70"/>
-			<img src={flower_4} alt=""  className="absolute bottom-0 right-0 rotate-180  opacity-70"/>
+			<img
+				src={About_leaves}
+				alt=""
+				className="absolute -right-[100px] -z-1 top-0 animate-bounce-slow"
+			/>
+			
 			<h5 className=" text-pink-700  text-center p-2">Testimonials</h5>
 			<div className="flex w- full  flex-row item-center justify-center mb-6">
 				<h3 className="text-[44px]  font-extrabold font-cormorant  md:text-[58px] leading-[50px] md:leading-[64px] md:text-left text-center text-[#0D0D0D] ">

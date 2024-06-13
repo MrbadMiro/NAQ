@@ -327,7 +327,7 @@ const Contact2 = () => {
 			className="w-full md:px-12 px-6 py-24  relative"
 			style={sectionStyle}
 			id="contact">
-				<img src={flower_3} alt="" className="absolute right-0 -bottom-0"/>
+				
 	 
 			<div className="flex flex-col  relative">
 				

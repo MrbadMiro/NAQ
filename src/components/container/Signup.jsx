@@ -9,7 +9,7 @@ const Signup = () => {
 	};
 
 	return (
-		<section className="pl-3 py-5" style={sectionStyle}>
+		<section className="pl-3 py-5 boxShadow3" style={sectionStyle}>
 			<div className=" flex flex-col justify-center items-center px-16 ">
 				<div className="order-2 lg:order-1 flex flex-col justify-center items-center gap-3">
 					<p className="text-xs font-bold md:text-xs text-black-200 decoration-transparent text-pink-700">

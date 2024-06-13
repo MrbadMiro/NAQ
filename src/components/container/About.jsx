@@ -52,7 +52,7 @@ const About = () => {
 						<p className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
 							About NAQ
 						</p>
-						<img src={About_Arrow2} alt="" />
+						<img src={About_Arrow2} alt=""  className="animate-bounce-horizontal"/>
 					</div>
 					<div className="flex flex-col w-full">
 					<p className="  w-full font-extrabold font-cormorant  md:text-[38px] leading-[48.5px]   md:text-left text-center text-[#0D0D0D] ">
