@@ -19,7 +19,7 @@ const About = () => {
 		window.location.href = facebookProfileUrl;
 	};
 	return (
-		<div className="section relative mt-[250px] md:mt-0" id="about">
+		<div className="section relative my-[100px]  " id="about">
 			<img
 				src={About_leaves}
 				alt=""
@@ -79,7 +79,7 @@ const About = () => {
 					</div>
 
 				
-					<div className="w-full grid  sm:grid-cols-3  mt-4   item-center text-center lg:text-left">
+					{/* <div className="w-full grid  sm:grid-cols-3  mt-4   item-center text-center lg:text-left">
 						<div className="w-full mb-2 ">
 							<h3 className="text-2xl font-bold md:text-4xl text-pink-700">
 								50+
@@ -98,8 +98,8 @@ const About = () => {
 							</h3>
 							<h5 className="font-semibold w-full text-xs ">Courses</h5>
 						</div>
-					</div>
-					<div className="w-full mt-2">
+					</div> */}
+					<div className="w-full mt-4">
 						<a
 							href={facebookProfileUrl}
 							target="_blank"

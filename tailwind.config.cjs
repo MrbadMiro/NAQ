@@ -26,6 +26,7 @@ module.exports = {
 			animation: {
 				"bounce-slow": " bounce 3s linear infinite",
 				"pulse-slow": " pulse 3s linear infinite",
+				"spin-slow": " spin 3s linear infinite",
 				slide: "slide 25s linear infinite",
 				'bounce-horizontal': 'bounce-horizontal 3s linear infinite',
 			},

@@ -7,7 +7,15 @@ import { courses } from "../../Data";
 import { Link as ScrollLink } from "react-scroll";
 import { MdOutlineBookmarkAdd } from "react-icons/md";
 import { FaRegClock } from "react-icons/fa6";
-import { Courses_bg, Courses_leaves,Hero_Arrow } from "../../assets";
+import {
+	Courses_bg,
+	Courses_leaves,
+	Hero_Arrow,
+	counter_1_1,
+	counter_1_2,
+	counter_1_3,
+	counter_1_4,
+} from "../../assets";
 const Courses = () => {
 	const sectionStyle = {
 		backgroundImage: `url(${Courses_bg})`,
@@ -52,21 +60,91 @@ const Courses = () => {
 
 	return (
 		<section
-			className="w-full relative bg-pink-50 flex flex-col items-center justify-center py-24 px-6 lg:px-12 lg:p-24 gap-6  "
+			className="w-[100vw] relative z-10 bg-pink-50 flex flex-col items-center justify-center pb-24 px-6 md:px-12  gap-6  "
 			id="courses"
 			style={sectionStyle}>
-			<img src={Courses_leaves} alt="" className="absolute bottom-0 left-0 animate-bounce-slow" />
+			<div className="relative w-full items-center justify-center pb-[120px]">
+				<div className=" w-full absolute -top-12 p-1 boxShadow1   bg-white ">
+					<div className="grid md:grid-cols-4 w-full p-4 bg-[#F9F3F0]">
+						<div className="flex flex-cols-2 gap-2 items-center justify-center">
+							<div className="flex   ">
+								<img src={counter_1_1} alt="" />
+							</div>
+							<div className="flex flex-col ">
+								<p className="text-[70px]  font-dm_sans    font-light leading-[80px] text-[#000000] ">
+									25+
+								</p>
+
+								<p className="text-[16px]  font-extrabold font-dm_sans         text-[#6E6E6E] ">
+									Years of Experience
+								</p>
+							</div>
+						</div>
+						<div className="flex flex-cols-2 gap-2 items-center justify-center">
+							<div className="flex   ">
+								<img src={counter_1_2} alt="" />
+							</div>
+							<div className="flex flex-col ">
+								<p className="text-[70px]  font-dm_sans    font-light leading-[80px] text-[#000000] ">
+									100%
+								</p>
+
+								<p className="text-[16px]  font-extrabold font-dm_sans         text-[#6E6E6E] ">
+									Years of Experience
+								</p>
+							</div>
+						</div>
+						<div className="flex flex-cols-2 gap-2 items-center justify-center">
+							<div className="flex   ">
+								<img src={counter_1_3} alt="" />
+							</div>
+							<div className="flex flex-col ">
+								<p className="text-[70px]  font-dm_sans    font-light leading-[80px] text-[#000000] ">
+									56k+
+								</p>
+
+								<p className="text-[16px]  font-extrabold font-dm_sans         text-[#6E6E6E] ">
+								Satisfied Clients
+								</p>
+							</div>
+						</div>
+						<div className="flex flex-cols-2 gap-2 items-center justify-center">
+							<div className="flex   ">
+								<img src={counter_1_4} alt="" />
+							</div>
+							<div className="flex flex-col ">
+								<p className="text-[70px]  font-dm_sans    font-light leading-[80px] text-[#000000] ">
+									36+
+								</p>
+
+								<p className="text-[16px]  font-extrabold font-dm_sans         text-[#6E6E6E] ">
+								Specialists Team
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<img
+				src={Courses_leaves}
+				alt=""
+				className="absolute bottom-0 left-0 animate-bounce-slow"
+			/>
 			<h5 className="  flex flex-col  text-center p-2">
-				
-				<p className="text-[20px]  font-bold font-cormorant   leading-[26px]   md:text-left text-center text-[#E24486] ">Find Your Passion and Unlock Your Potential.</p>
+				<p className="text-[20px]  font-bold font-cormorant   leading-[26px]   md:text-left text-center text-[#E24486] ">
+					Find Your Passion and Unlock Your Potential.
+				</p>
 				<img src={Hero_Arrow} alt="" />
 			</h5>
 			<div className="flex w- full  flex-row item-center justify-center ">
 				<h3 className="  text-center  ">
-					<p className="text-[44px]  font-extrabold font-cormorant  md:text-[48px] leading-[50px] md:leading-[58.9px]  text-center text-[#0D0D0D] ">Master Beauty Skills with NAQ</p>
+					<p className="text-[44px]  font-extrabold font-cormorant  md:text-[48px] leading-[50px] md:leading-[58.9px]  text-center text-[#0D0D0D] ">
+						Master Beauty Skills with NAQ
+					</p>
 				</h3>
 			</div>
-			<div className="w-full h-fit p-6 ">
+			<div className="w-full h-fit  ">
 				<Slider {...settings} className="custom-slider">
 					{courses.map((item, index) => (
 						<div

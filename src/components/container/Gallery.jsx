@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Gallery_Arow } from "../../assets";
+import { Gallery_Arow,flower_2,Footer_img3 } from "../../assets";
 import { Gallery_data } from "../../Data";
 
 const Gallery = () => {
@@ -10,13 +10,14 @@ const Gallery = () => {
 		(service) => service.tab === activeTab
 	);
 	return (
-		<div className="py-24 bg-[#BE185D] w-full flex flex-col items-start justify-center md:px-12 px-6">
+		<div className="py-24 bg-[#BE185D] relative w-full flex flex-col items-start justify-center md:px-12 px-6">
+			<img src={flower_2} alt=""  className="absolute top-0 right-0 animate-spin-slow"/>
 			<div className="w-full">
 				<div className="flex gap-2">
 					<p className="text-[20px]  font-bold font-cormorant   leading-[26px]  text-left text-white ">
 						Our Gallery
 					</p>
-					<img src={Gallery_Arow} alt="" />
+					<img src={Gallery_Arow} alt="" className="animate-bounce-horizontal" />
 				</div>
 
 				<div className="grid md:grid-cols-2 mt-2 items-center justify-between w-full">

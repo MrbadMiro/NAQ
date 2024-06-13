@@ -8,15 +8,32 @@ import { IoLocationOutline } from "react-icons/io5";
 import React from "react";
 import { Signup_img } from "../../Data";
 import { logo } from "../../Data";
-
+import { Courses_bg } from "../../assets";
+import {
+	 
+	Courses_leaves,
+    About_leaves,
+	flower_4,
+	 
+} from "../../assets";
 const Footer = () => {
 	const sectionStyle = {
 		backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${Signup_img})`,
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 	};
+	const sectionStyle2 = {
+		backgroundImage: ` url(${Courses_bg})`,
+		backgroundSize: "cover",
+		backgroundPosition: "center",
+	};
 	return (
-		<section className=" w-full px-6 lg:px-16 mt-0 pt-0 bg-white">
+		<div
+			className=" w-full flex flex-col items-center relative justify-center md:px-12 px-6  boxShadow2 mt-0 pt-0 bg-[#F9F3F0]]"
+			style={sectionStyle2}>
+            <img src={Courses_leaves} alt=""  className="absolute bottom-0 right-0 rotate-180"/>
+            <img src={flower_4} alt=""  className="absolute bottom-0 left-0 opacity-70"/>
+ 
 			<div className="flex flex-col relative h-full">
 				<div
 					className=" flex flex-col justify-center items-center w-full absolute rounded-xl py-4 px-6 -top-20  "
@@ -43,26 +60,39 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="mt-3 lg:mt-1">
-					<div className="grid  mt-24 lg:grid-cols-3 gap-5    lg:pt-30 justify-between  px-16 mx-auto ">
-						<div className="  flex flex-col ">
+					<div className="grid  mt-24 md:grid-cols-4 gap-5    lg:pt-30 justify-between    ">
+						<div className="  flex flex-col col-span-2 ">
 							<div className="mt-8 lg:mt-0">
 								<img src={logo} alt="" className="w-[60px] h-[60px] " />
 							</div>
 
-							<p className="mt-4 leading-2 text-[13px] font-medium text-wrap	 ">
-								Nithiya's Active Queens is your one-stop destination for empowering transformations. 
-								Discover a world of beauty,creativity, and entrepreneurial possibilities.
+							<p className="mt-[20px]  font-normal font-dm_sans  text-[16px]  leading-[28px]  text-left   text-[#6E6E6E] ">
+								Nithiya's Active Queens is your one-stop destination for
+								empowering transformations. Discover a world of
+								beauty,creativity, and entrepreneurial possibilities.
 							</p>
+							<div className="flex mt-2 flex-col">
+								<p className="font-semibold font-dm_sans  text-[18px]  leading-[28px]  text-left   text-black">We Are Available:</p>
+								<p className="   font-normal font-dm_sans  text-[16px]  leading-[28px]  text-left   text-[#6E6E6E] ">Mon-Sat: 08.00 am to 5.00 pm</p>
+
+							</div>
+							<p className=""></p>
 							<div className="flex w-full text-pink-700  gap-8 mt-4 text-xl">
-								<FaFacebookSquare />
-								<FaSquareInstagram />
-								<FaYoutube />
+								<div className="p-1 bg-[#EFEFEF] boxShadow2">
+									<FaFacebookSquare />
+								</div>
+								<div className="p-1 bg-[#EFEFEF] boxShadow2">
+									<FaSquareInstagram />
+								</div>
+								<div className="p-1 bg-[#EFEFEF] boxShadow2">
+									<FaYoutube />
+								</div>
 							</div>
 						</div>
 						<div className=" text-xl sm:text-2xl 	font-bold">
 							<p className="font-medium text-[20px]">Courses</p>
 							<div className="grid   grid-cols gap-2   w-full pt-4 ">
-								<div className="w-full text-xs ">
+								<div className="w-full text-xs font-normal font-dm_sans  text-[16px]  leading-[28px]   text-[#6E6E6E] ">
 									<p className="mb-1 font-medium">
 										Makeup & Hairstyling Essentials
 									</p>
@@ -81,13 +111,21 @@ const Footer = () => {
 							</p>
 							<div className="mt-4 text-xs font-normal ">
 								<p className="py-1 flex items-center gap-2">
-									<FaPhoneAlt className="text-pink-700" /> 0771234567
+									<div className="p-1 bg-[#EFEFEF] boxShadow2">
+										<FaPhoneAlt className="text-pink-700" />
+									</div>{" "}
+									0771234567
 								</p>
 								<p className="py-1 flex items-center gap-2">
-									<AiOutlineMail className="text-pink-700" /> 123@gmail.com
+									<div className="p-1 bg-[#EFEFEF] boxShadow2">
+										<AiOutlineMail className="text-pink-700" />
+									</div>{" "}
+									123@gmail.com
 								</p>
 								<p className="py-1 flex items-center gap-2">
-									<IoLocationOutline className="text-pink-700" />
+									<div className="p-1 bg-[#EFEFEF] boxShadow2">
+										<IoLocationOutline className="text-pink-700" />
+									</div>
 									jaffna,srilana
 								</p>
 							</div>
@@ -103,7 +141,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 };
 

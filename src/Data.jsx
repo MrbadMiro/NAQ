@@ -212,7 +212,7 @@ export const data = [
 	{
 		id: 4,
 		quote:
-			"Nithiya's weight loss program was a game-changer for me. I learned healthy habits and strategies that helped me reach my goals and feel my best.",
+			"Thanks to Nithiya's Active Queens,Nithiya's weight loss program was a game-changer for me. I learned healthy habits and strategies that helped me reach my goals and feel my best.",
 		img: Testimonial_2,
 		name: "Sara L.",
 	},
