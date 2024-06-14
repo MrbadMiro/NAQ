@@ -5,12 +5,18 @@ import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
 import { motion } from "framer-motion";
+import Form from "../container/Form";
 
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 	const [active, setActive] = useState(null);
 	const [scrollY, setScrollY] = useState(0);
 	const [isVisible, setIsVisible] = useState(true);
+
+	const [showForm1, setShowForm1] = useState(false);
+	const toggleForm1 = () => {
+		setShowForm1(!showForm1);
+	};
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -40,6 +46,7 @@ const Navbar = () => {
 	}, [active]);
 
 	return (
+		<>
 		<div
 			className={`fixed z-20 top-0 w-[100vw] flex  border-b border-b-white border-opacity-20 transition-transform duration-300 ${
 				isVisible ? "translate-y-0" : "-translate-y-full"
@@ -67,20 +74,16 @@ const Navbar = () => {
 						))}
 					</div>
 					<div className="py-3 px-6 gap-5 text-xl flex flex-row items-center justify-center">
-						<ScrollLink
-							to="contact"
-							spy={true}
-							smooth={true}
-							duration={500}
-							offset={-50}
-							className="hover:text-Rose cursor-pointer">
+						
 							<button
 								type="button"
-								className="text-white hover:bg-pink-500 bg-pink-700 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+								className="text-white hover:bg-pink-500 bg-pink-700 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+								onClick={toggleForm1}>
 								Apply Now
 							</button>
-						</ScrollLink>
+						
 					</div>
+					
 
 
 					{toggle && (
@@ -105,6 +108,11 @@ const Navbar = () => {
 				</div>
 			</div>
 		</div>
+
+		{showForm1 && <Form toggleForm={toggleForm1} />}
+		
+		</>
+		
 	);
 };
 

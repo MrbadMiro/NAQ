@@ -260,7 +260,7 @@ import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
 import { Contact_img } from "../../Data";
 import Form from "./Form";
-import { flower_3,flower_2  } from "../../assets";
+import { flower_3, flower_2, Courses_flower, About_flower,courses_img1 } from "../../assets";
 const Contact2 = () => {
 	const [message, setMessage] = useState("");
 	const [showForm1, setShowForm1] = useState(false);
@@ -269,7 +269,7 @@ const Contact2 = () => {
 	};
 
 	const sectionStyle = {
-		backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${Contact_img})`,
+		backgroundImage: `url(${Contact_img})`,
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 	};
@@ -324,38 +324,46 @@ const Contact2 = () => {
 
 	return (
 		<section
-			className="w-full md:px-12 px-6 py-24  relative"
-			style={sectionStyle}
+			className="w-full md:px-12 px-6 py-24   relative bg-"
 			id="contact">
-				
-	 
-			<div className="flex flex-col  relative">
-				
-				<div className="order-1 flex flex-col justify-center items-center md:gap-10">
-					<p className="text-2xl font-bold md:text-4xl text-center font-dm_sans text-transparent bg-clip-text bg-gradient-to-r from-slate-50 to-pink-700 ">
+			
+			{/* <img src={About_flower} alt=""  className="absolute -top-4 left-1/2 transform -translate-x-1/2 overflow-hidden "/>	 */}
+
+			<div className="grid md:grid-cols-2  relative">
+				{/* <div className="order-1 flex flex-col justify-center items-center md:gap-10">
+					<p className="text-[44px]  font-extrabold font-cormorant  leading-[50px]   text-center text-white ">
 						Start your journey towards mastering new talents and unleashing your
 						creativity.
 					</p>
+
+				</div> */}
+				<div>
+					<img src={courses_img1} alt="" />
 				</div>
-				<div className="order-2  mt-3 text-sm font-bold flex flex-col justify-center items-center rounded-xl relative">
-					<h3 className="text-3xl text-center text-white ">
-						Join Our Exciting{" "}
-						<span className="text-pink-700 mr-1">Courses</span>
+				<div className="  mt-3 text-sm font-bold flex flex-col justify-center items-center rounded-xl relative pl-2">
+					<div className="flex flex-col gap-2">
+					<h3 className="text-[44px]  font-extrabold font-cormorant  leading-[50px]  tracking-wide  text-center text-black ">
+						Join Our Exciting <span className="">Courses</span>
 						Today!
+						
 					</h3>
-					<p className="mt-2 text-white text-wrap text-center text-[12px] lg:text-[14px] font-normal">
-						Whether you're passionate about makeup artistry, crafting, baking,
-						or more, our expert-led programs are designed to empower you with
-						practical knowledge and hands-on experience.
-					</p>
+					<p className="font-normal font-dm_sans text-center text-[16px]  leading-[28px]   text-black mx-24">
+							Whether you're passionate about makeup artistry, crafting, baking,
+							or more, our expert-led programs are designed to empower you with
+							practical knowledge and hands-on experience.
+						</p>
+
+
+					</div>
+					
+
 					<button
-						className="overflow rounded-md mt-4 bg-white group relative overflow-hidden text-[12px]  text-black px-4 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full"
+						className="overflow rounded-md bg-pink-700 mt-4 bg-[#] group relative overflow-hidden text-[12px]  text-white px-4 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full"
 						onClick={toggleForm1}>
 						<span className="relative z-10 block transition-colors duration-300 group-hover:text-white">
 							Join Now
 						</span>
 					</button>
-					 
 				</div>
 			</div>
 			{showForm1 && <Form toggleForm={toggleForm1} />}

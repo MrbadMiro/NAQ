@@ -15,6 +15,9 @@ html, body {
 		animation-play-state: paused;
 	}
 }
+.group:hover .course-icon {
+	filter: brightness(0) invert(1);
+  }
 
 .boxShadow {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -73,3 +76,45 @@ checkbox {
   animation: bounce-horizontal 3s linear infinite;
 }
 
+
+@keyframes slideContent {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+}
+
+@keyframes slideImage {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+@keyframes slideImage2 {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+@keyframes slideImage3 {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+
+.animate-slideContent {
+    animation: slideContent 0.4s linear 0.6s backwards;
+}
+
+.animate-slideImage {
+    animation: slideImage 5s linear;
+}
+
+.animate-slideImage2 {
+    animation: slideImage2 8s linear;
+}
+.animate-slideImage3 {
+    animation: slideImage3 8s linear;
+}

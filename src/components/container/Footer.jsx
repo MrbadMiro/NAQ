@@ -5,12 +5,17 @@ import { Link as ScrollLink } from "react-scroll";
 import { FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Signup_img } from "../../Data";
 import { logo } from "../../Data";
 import { Courses_bg } from "../../assets";
 import { Courses_leaves, About_leaves, flower_4 } from "../../assets";
+import Form from "./Form";
 const Footer = () => {
+	const [showForm1, setShowForm1] = useState(false);
+	const toggleForm1 = () => {
+		setShowForm1(!showForm1);
+	};
 	const sectionStyle = {
 		backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${Signup_img})`,
 		backgroundSize: "cover",
@@ -22,6 +27,7 @@ const Footer = () => {
 		backgroundPosition: "center",
 	};
 	return (
+		<>
 		<div
 			className=" w-full flex flex-col items-center relative justify-center md:px-12 px-6  boxShadow2 mt-0 pt-0 bg-[#F9F3F0]]"
 			style={sectionStyle2}>
@@ -55,7 +61,7 @@ const Footer = () => {
 							duration={500}
 							offset={-50}
 							className="hover:text-Rose cursor-pointer">
-							<button className="bg-pink-700 px-4 lg:px-6 py-2 text-border-white  text-left font-medium text-xs text-white rounded-full">
+							<button className="bg-pink-700 px-4 lg:px-6 py-2 text-border-white  text-left font-medium text-xs text-white rounded-full" onClick={toggleForm1}>
 								Enroll Now
 							</button>
 						</ScrollLink>
@@ -156,6 +162,9 @@ const Footer = () => {
 				</div>
 			</div>
 		</div>
+		{showForm1 && <Form toggleForm={toggleForm1} />}
+		</>
+		
 	);
 };
 

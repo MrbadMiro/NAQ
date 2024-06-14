@@ -13,7 +13,7 @@ import {
 
 function App() {
 	return (
-		<div className="font-Poppins   ">
+		<div className="    ">
 			<Header />
 			<Home />
 			<About />

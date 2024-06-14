@@ -5,13 +5,18 @@ import Hero_Section_bg from "./Section.svg";
 import Hero_icon1 from "./Hero_icon1.svg";
 import Hero_icon2 from "./Hero_icon2.png";
 import Hero_Arrow from "./Hero_Arrow.svg";
-
+import hero from "./hero.svg";
+import hero2 from "./hero2.svg";
 //About Section
 import About_leaves from "./About_leaves.svg";
 import About_flower from "./About_flower.svg";
 import About_Arrow2 from "./About_Arrow2.svg";
 
 //Courses
+import Courses_Circle from "./Courses_Circle.svg";
+import Courses_flower from "./Courses_flower.svg";
+import Courses_icon1 from "./Courses_icon1.svg";
+import Courses_icon2 from "./Courses_icon2.svg";
 import counter_1_1 from "./counter_1_1.svg";
 import counter_1_2 from "./counter_1_2.svg";
 import counter_1_3 from "./counter_1_3.svg";
@@ -33,7 +38,7 @@ import courses_img4 from "./Courses_img4.jpg";
 import Gallery_Arow from "./Gallery_Arow.svg";
 
 import About_img from "./About.png";
-import Contact_img from "./Contact_img.jpg";
+import Contact_img from "./Contact_img.svg";
 import Signup_img from "./Signup.jpg";
 import Footer_img1 from "./Footer_img1.jpg";
 import Footer_img2 from "./Footer_img2.jpg";
@@ -52,13 +57,18 @@ export {
 	Hero_icon1,
 	Hero_icon2,
 	Hero_Arrow,
-
+    hero,
+	hero2,
 	//About Section
 	About_leaves,
 	About_flower,
 	About_Arrow2,
 
 	//Courses
+	Courses_Circle,
+	Courses_flower,
+	Courses_icon1,
+	Courses_icon2,
 	counter_1_1,
 	counter_1_2,
 	counter_1_3,

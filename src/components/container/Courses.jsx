@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick"; // Assuming you have react-slick installed
 import { IoLocationOutline } from "react-icons/io5";
+import Form from "./Form";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { courses } from "../../Data";
@@ -15,8 +16,17 @@ import {
 	counter_1_2,
 	counter_1_3,
 	counter_1_4,
+	Courses_Circle,
+	Courses_flower,
+	Courses_icon1,
+	Courses_icon2,
 } from "../../assets";
 const Courses = () => {
+
+	const [showForm1, setShowForm1] = useState(false);
+	const toggleForm1 = () => {
+		setShowForm1(!showForm1);
+	};
 	const sectionStyle = {
 		backgroundImage: `url(${Courses_bg})`,
 		backgroundSize: "cover",
@@ -59,11 +69,12 @@ const Courses = () => {
 	};
 
 	return (
+		<>
 		<section
-			className="w-[100vw] relative z-10 bg-pink-50 flex flex-col items-center justify-center pb-24 px-6 md:px-12  gap-6  "
+			className="w-[100vw] relative z-10  flex flex-col items-center justify-center pb-[200px] px-6 md:px-12  gap-6  "
 			id="courses"
 			style={sectionStyle}>
-			<div className="relative w-full items-center justify-center pb-[120px]">
+			<div className="relative w-full items-center justify-center pb-[150px]">
 				<div className=" w-full absolute -top-12 p-1 boxShadow1   bg-white ">
 					<div className="grid md:grid-cols-4 w-full p-4 bg-[#F9F3F0]">
 						<div className="flex flex-cols-2 gap-2 items-center justify-center">
@@ -104,7 +115,7 @@ const Courses = () => {
 								</p>
 
 								<p className="text-[16px]  font-extrabold font-dm_sans         text-[#6E6E6E] ">
-								Satisfied Clients
+									Satisfied Clients
 								</p>
 							</div>
 						</div>
@@ -118,7 +129,7 @@ const Courses = () => {
 								</p>
 
 								<p className="text-[16px]  font-extrabold font-dm_sans         text-[#6E6E6E] ">
-								Specialists Team
+									Specialists Team
 								</p>
 							</div>
 						</div>
@@ -144,7 +155,7 @@ const Courses = () => {
 					</p>
 				</h3>
 			</div>
-			<div className="w-full h-fit  ">
+			{/* <div className="w-full h-fit  ">
 				<Slider {...settings} className="custom-slider">
 					{courses.map((item, index) => (
 						<div
@@ -189,8 +200,43 @@ const Courses = () => {
 						</div>
 					))}
 				</Slider>
+			</div> */}
+			<div className="w-full h-fit  ">
+				<Slider {...settings} className="custom-slider">
+					{courses.map((item, index) => (
+						<div
+							id="Slider-Boxes"
+							key={index}
+							className="p-4 boxShadow1 min-w-[full] bg-white flex relative flex-col overflow  group   overflow-hidden   before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full">
+								<img src={Courses_flower} alt="" className="absolute top-0 left-4 group-hover:opacity-10" />
+								<img src={Courses_Circle} alt="" className="absolute -right-4 -top-4" />
+								<img src={Courses_icon2} alt="" className="absolute right-4 top-4" onClick={toggleForm1} />
+							<div className="flex flex-col">
+								<div className="flex">
+									<img src={item.image} alt="" className="z-10 course-icon transition-all duration-300 " />
+								</div>
+								<div className="flex flex-col pb-[21px] border-b border-dotted  ">
+									<p className="  font-extrabold font-cormorant   text-[30px] leading-[40px]   text-left   text-black  relative z-10 block transition-colors duration-300 group-hover:text-white">
+										{item.category}
+									</p>
+									<p className="font-normal font-dm_sans  text-[16px]  leading-[28px]   text-[#6E6E6E] mt-[10px] relative z-10 block transition-colors duration-300 group-hover:text-white ">
+										{item.title}
+									</p>
+								</div>
+
+								<div>
+									<button className="border font-medium px-4 py-2 font-dm_sans  text-[14px]  leading-[14px]   text-[#E24486] mt-[10px] relative z-10 block transition-colors duration-300 group-hover:bg-black group-hover:border-none group-hover:text-white" onClick={toggleForm1}>BOOK NOW</button>
+								</div>
+							</div>
+						</div>
+					))}
+				</Slider>
 			</div>
 		</section>
+		{showForm1 && <Form toggleForm={toggleForm1} />}
+		
+		</>
+		
 	);
 };
 

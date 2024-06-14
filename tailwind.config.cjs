@@ -22,6 +22,7 @@ module.exports = {
 					"0%, 100%": { transform: "translateX(0)" },
 					"50%": { transform: "translateX(50px)" },
 				},
+				
 			},
 			animation: {
 				"bounce-slow": " bounce 3s linear infinite",

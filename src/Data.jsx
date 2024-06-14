@@ -6,7 +6,9 @@ import { TbHeadset } from "react-icons/tb";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
 import { FaRegClock } from "react-icons/fa6";
 
-import Contact_img from "./assets/Contact_img.jpg";
+import { Courses_icon1 } from "./assets";
+
+import Contact_img from "./assets/Contact_img.svg";
 import Signup_img from "./assets/Signup.jpg";
 
 import Footer_img1 from "./assets/Footer_img1.jpg";
@@ -68,74 +70,40 @@ export const navLinks = [
 export const courses = [
 	{
 		id: 1,
-		image: courses1,
+		image: Courses_icon1,
 		category: " Beauty & Style",
-		title: "Makeup & Hairstyling Essentials",
-		rating: 3,
-		CoursePrice: 4000,
-		OfferPrice: 5000,
-		Place: "Killinochi",
+		title: "We have carefully designed our salon to provide a relaxing and welcoming atmosphere for our clients. As soon as you step through our door, you'll be greeted with a warm.",
+		
 	},
 	{
 		id: 2,
-		image: courses2,
+		image: Courses_icon1,
 		category: "Culinary Delights",
-		title: "Cake Baking & Decorating",
-		rating: 3,
-		CoursePrice: 7777,
-		OfferPrice: 4444,
-		Place: "Jaffna",
+		title: "We have carefully designed our salon to provide a relaxing and welcoming atmosphere for our clients. As soon as you step through our door, you'll be greeted with a warm.",
+		 
 	},
 	{
 		id: 3,
-		image: courses3,
+		image: Courses_icon1,
 		category: "Creative Crafts",
-		title: "Aari Embroidery",
-		rating: 3,
-		CoursePrice: 12000,
-		OfferPrice: 7000,
-		Place: "Killinochi",
+		title: "We have carefully designed our salon to provide a relaxing and welcoming atmosphere for our clients. As soon as you step through our door, you'll be greeted with a warm.",
+		 
 	},
 	{
 		id: 4,
-		image: courses4,
+		image: Courses_icon1,
 		category: "Creative Crafts",
-		title: "Tailoring",
-		rating: 3,
-		CoursePrice: 17000,
-		OfferPrice: 15000,
-		Place: "Mullaitivu",
+		title: "We have carefully designed our salon to provide a relaxing and welcoming atmosphere for our clients. As soon as you step through our door, you'll be greeted with a warm.",
+		 
 	},
 	{
-		id: 5,
-		image: courses5,
-		category: "Beauty & Style",
-		title: "Henna",
-		rating: 3,
-		CoursePrice: 30000,
-		OfferPrice: 23000,
-		Place: "Jaffna",
+		id: 4,
+		image: Courses_icon1,
+		category: "Creative Crafts",
+		title: "We have carefully designed our salon to provide a relaxing and welcoming atmosphere for our clients. As soon as you step through our door, you'll be greeted with a warm.",
+		 
 	},
-	{
-		id: 6,
-		image: courses6,
-		category: "Beauty & Style",
-		title: " Jewelry Making",
-		rating: 3,
-		CoursePrice: 30000,
-		OfferPrice: 23000,
-		Place: "Killinochi",
-	},
-	{
-		id: 7,
-		image: courses7,
-		category: "Wellness",
-		title: "Weight Loss and Fitness",
-		rating: 3,
-		CoursePrice: 30000,
-		OfferPrice: 23000,
-		Place: "Vavuniya",
-	},
+	
 ];
 
 export const Gallery_data = [

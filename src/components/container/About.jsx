@@ -19,13 +19,13 @@ const About = () => {
 		window.location.href = facebookProfileUrl;
 	};
 	return (
-		<div className="section relative my-[100px]  " id="about">
+		<div className="section relative my-[150px]  " id="about">
 			<img
 				src={About_leaves}
 				alt=""
 				className="absolute -right-[100px] -z-1 top-0 animate-bounce-slow"
 			/>
-			<div className="grid lg:grid-cols-2 w-full   ">
+			<div className="grid md:grid-cols-2 w-full   ">
 				{/* left SIDE */}
 				<div className="flex  order-1 w-full  justify-end px-6 relative">
 					<img

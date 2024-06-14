@@ -46,12 +46,12 @@ const Testimonial = () => {
 	};
 
 	return (
-		<section className="w-full   flex flex-col items-center  relative justify-center pt-[200px] pb-[200px] px-6 md:px-12 gap-6  ">
+		<section className="w-full   flex flex-col items-center  relative justify-center pt-[200px] pb-[250px] px-6 md:px-12 gap-6  ">
 			<img src={flower_4} alt=""  className="absolute top-0 left-0 opacity-70"/>
 			<img
 				src={About_leaves}
 				alt=""
-				className="absolute -right-[100px] -z-1 top-0 animate-bounce-slow"
+				className="absolute -right-[100px] -z-1 top-0 "
 			/>
 			
 			<h5 className=" text-pink-700  text-center p-2">Testimonials</h5>
