@@ -260,7 +260,18 @@ import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
 import { Contact_img } from "../../Data";
 import Form from "./Form";
-import { flower_3, flower_2, Courses_flower, About_flower,courses_img1 } from "../../assets";
+
+import {
+	 
+
+	About_Arrow2,
+	flower_3,
+	flower_2,
+	Courses_flower,
+	About_flower,
+	courses_img1,
+	flower_4,
+} from "../../assets";
 const Contact2 = () => {
 	const [message, setMessage] = useState("");
 	const [showForm1, setShowForm1] = useState(false);
@@ -323,10 +334,8 @@ const Contact2 = () => {
 	// };
 
 	return (
-		<section
-			className="w-full md:px-12 px-6 py-24   relative bg-"
-			id="contact">
-			
+		<section className="w-full md:px-12 px-6 py-24 flex relative flex-col  relative bg-" id="contact">
+				<img src={flower_4} alt=""  className="absolute top-0 left-0 opacity-70"/>
 			{/* <img src={About_flower} alt=""  className="absolute -top-4 left-1/2 transform -translate-x-1/2 overflow-hidden "/>	 */}
 
 			<div className="grid md:grid-cols-2  relative">
@@ -337,25 +346,51 @@ const Contact2 = () => {
 					</p>
 
 				</div> */}
-				<div>
-					<img src={courses_img1} alt="" />
+				<div className="flex  order-1 w-full  justify-start  relative">
+					<img
+						src={courses_img1}
+						alt=""
+						className="h-[500px] z-10 w-[387px]  object-cover rounded-t-[300px]"
+					/>
+					<div className="absolute -right-4">
+						<img
+							className=" -z-20 h-[500px] w-[387px] object-cover rounded-t-[300px] -left-4  bottom-0  "
+							src={courses_img1}
+							alt="Hero-image"
+						/>
+						<img
+							src={About_flower}
+							alt=""
+							className="absolute left-[-180px] -bottom-12  z-10 animate-bounce-horizontal"
+						/>
+					</div>
 				</div>
-				<div className="  mt-3 text-sm font-bold flex flex-col justify-center items-center rounded-xl relative pl-2">
+				<div className="  mt-12 md:mt-0 text-sm font-bold flex flex-col justify-center   items-center  md:items-start  rounded-xl relative ">
+					<div className="flex gap-2 ">
+						<p className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
+							Contact
+						</p>
+						<img
+							src={About_Arrow2}
+							alt=""
+							className="animate-bounce-horizontal"
+						/>
+					</div>
 					<div className="flex flex-col gap-2">
-					<h3 className="text-[44px]  font-extrabold font-cormorant  leading-[50px]  tracking-wide  text-center text-black ">
-						Join Our Exciting <span className="">Courses</span>
-						Today!
-						
-					</h3>
-					<p className="font-normal font-dm_sans text-center text-[16px]  leading-[28px]   text-black mx-24">
+						<h3 className="text-[40px]  font-extrabold font-cormorant  leading-[50px] mt-[10px] tracking-wide  text-center md:text-left text-black ">
+							Join Our Exciting <span className="">Courses</span>
+Today!
+						</h3>
+						<p className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black mx-24 md:mx-0">
+						Start your journey towards mastering new talents and unleashing your
+						 						creativity.
+						</p>
+						<p className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black mx-24 md:mx-0">
 							Whether you're passionate about makeup artistry, crafting, baking,
 							or more, our expert-led programs are designed to empower you with
 							practical knowledge and hands-on experience.
 						</p>
-
-
 					</div>
-					
 
 					<button
 						className="overflow rounded-md bg-pink-700 mt-4 bg-[#] group relative overflow-hidden text-[12px]  text-white px-4 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full"

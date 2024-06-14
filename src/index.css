@@ -50,12 +50,12 @@ textarea::placeholder {
 	font-size: 14px; /* Adjust font size if needed */
 }
 select {
-	color: #000; /* Change color as desired */
+	color: #837a7a; /* Change color as desired */
 	font-size: 14px; /* Adjust font size if needed */
 }
 checkbox {
-	color: #000; /* Change color as desired */
-	font-size: 12px; /* Adjust font size if needed */
+  color: #837a7a;/* Change color as desired */
+	font-size: 14px; /* Adjust font size if needed */
 }
 
 

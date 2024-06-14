@@ -71,13 +71,13 @@ const Courses = () => {
 	return (
 		<>
 		<section
-			className="w-[100vw] relative z-10  flex flex-col items-center justify-center pb-[200px] px-6 md:px-12  gap-6  "
+			className="w-[100vw] relative z-10 h-full flex flex-col items-center justify-center pb:[200px] md:pb-[200px] px-6 md:px-12  gap-6  "
 			id="courses"
 			style={sectionStyle}>
-			<div className="relative w-full items-center justify-center pb-[150px]">
-				<div className=" w-full absolute -top-12 p-1 boxShadow1   bg-white ">
+			<div className="relative w-full items-center justify-center ">
+				<div className=" w-full absolute -top-[40px] md:-top-12 p-1 boxShadow1   bg-white ">
 					<div className="grid md:grid-cols-4 w-full p-4 bg-[#F9F3F0]">
-						<div className="flex flex-cols-2 gap-2 items-center justify-center">
+						<div className="flex flex-cols-2 md:gap-2 gap-4 items-center justify-center">
 							<div className="flex   ">
 								<img src={counter_1_1} alt="" />
 							</div>
@@ -91,7 +91,7 @@ const Courses = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex flex-cols-2 gap-2 items-center justify-center">
+						<div className="flex flex-cols-2 md:gap-2  gap-4 md:mt-0 mt-[30px] items-center justify-center">
 							<div className="flex   ">
 								<img src={counter_1_2} alt="" />
 							</div>
@@ -105,7 +105,7 @@ const Courses = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex flex-cols-2 gap-2 items-center justify-center">
+						<div className="flex flex-cols-2 md:gap-2  gap-4 md:mt-0 mt-[30px] items-center justify-center">
 							<div className="flex   ">
 								<img src={counter_1_3} alt="" />
 							</div>
@@ -119,7 +119,7 @@ const Courses = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex flex-cols-2 gap-2 items-center justify-center">
+						<div className="flex flex-cols-2 md:gap-2  gap-4 md:mt-0 mt-[30px] items-center justify-center">
 							<div className="flex   ">
 								<img src={counter_1_4} alt="" />
 							</div>
@@ -142,7 +142,7 @@ const Courses = () => {
 				alt=""
 				className="absolute bottom-0 left-0 animate-bounce-slow"
 			/>
-			<h5 className="  flex flex-col  text-center p-2">
+			<h5 className="  flex flex-col mt-24  text-center p-2">
 				<p className="text-[20px]  font-bold font-cormorant   leading-[26px]   md:text-left text-center text-[#E24486] ">
 					Find Your Passion and Unlock Your Potential.
 				</p>
@@ -201,7 +201,7 @@ const Courses = () => {
 					))}
 				</Slider>
 			</div> */}
-			<div className="w-full h-fit  ">
+			<div className="w-full h-fit mt-2 ">
 				<Slider {...settings} className="custom-slider">
 					{courses.map((item, index) => (
 						<div

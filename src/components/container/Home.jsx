@@ -123,7 +123,7 @@ const Home = () => {
 					} flex items-center flex-wrap  `}>
 					<div className="grid lg:grid-cols-2 pt-12   relative gap-5">
 						{/* left side content*/}
-						<div className="  px-2 lg:px-0   lg:pl-10 py-5 flex flex-col justify-center md:items-start items-center mt-4">
+						<div className="  px-2 lg:px-0   lg:pl-10 py-5 flex flex-col justify-center md:items-start items-center mt-8 md:mt-4">
 							<div className="flex flex-col">
 								<p className=" mx-3 text-[#E24486] font-bold text-[20px] lg:text-[20px] font-cormorant md:text-left text-center">
 									Welocome to NAQ

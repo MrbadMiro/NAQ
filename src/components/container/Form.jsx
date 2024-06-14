@@ -26,7 +26,10 @@ const Form = ({ toggleForm }) => {
 	return (
 		<div className="fixed px-3 top-0 left-0 h-full w-[100vw]  bg-black bg-opacity-50 flex justify-center items-center z-30">
 			<div className="bg-white p-8 rounded-lg relative max-h-[90%] overflow-y-auto ">
-				<h2 className="text-lg font-bold mb-4">Employee Details Form</h2>
+				<h3 className="text-[28px]  font-extrabold font-cormorant text-center leading-[34px] mt-[10px] tracking-wide   text-black ">
+					Join Our Exciting <span className="">Courses</span>
+					Today!
+				</h3>
 				<form className=" mt-4 px-5 py-5 font-semibold flex flex-col justify-center items-center">
 					<div className="flex flex-col  gap-5 w-full ">
 						<div className="w-full  ">
@@ -117,7 +120,7 @@ const Form = ({ toggleForm }) => {
 											id="makeup"
 											value="Makeup & Hairstyling Essentials"
 										/>
-										<label htmlFor="weightLoss" className="text-[12px]">
+										<label htmlFor="weightLoss" className="text-[14px]">
 											{" "}
 											Makeup & Hairstyling Essential
 										</label>
@@ -129,7 +132,7 @@ const Form = ({ toggleForm }) => {
 											id="cakeBaking"
 											value="Cake Baking & Decorating"
 										/>
-										<label htmlFor="weightLoss" className="text-[12px]">
+										<label htmlFor="weightLoss" className="text-[14px]">
 											{" "}
 											Cake Baking & Decorating
 										</label>
@@ -142,7 +145,7 @@ const Form = ({ toggleForm }) => {
 											id="aari"
 											value="Aari Embroidery"
 										/>
-										<label htmlFor="weightLoss" className="text-[12px]">
+										<label htmlFor="weightLoss" className="text-[14px]">
 											{" "}
 											Aari Embroidery
 										</label>
@@ -154,7 +157,7 @@ const Form = ({ toggleForm }) => {
 											id="tailoring"
 											value="Tailoring"
 										/>
-										<label htmlFor="diet" className="text-[12px]">
+										<label htmlFor="diet" className="text-[14px]">
 											{" "}
 											Tailoring
 										</label>
@@ -166,7 +169,7 @@ const Form = ({ toggleForm }) => {
 											id="aariEmbroidery"
 											value="Aari Embroidery"
 										/>
-										<label htmlFor="aariEmbroidery" className="text-[12px]">
+										<label htmlFor="aariEmbroidery" className="text-[14px]">
 											{" "}
 											Aari Embroidery
 										</label>
@@ -178,7 +181,7 @@ const Form = ({ toggleForm }) => {
 											id="Henna"
 											value="Henna"
 										/>
-										<label htmlFor="Henna" className="text-[12px]">
+										<label htmlFor="Henna" className="text-[14px]">
 											{" "}
 											Henna
 										</label>
@@ -190,7 +193,7 @@ const Form = ({ toggleForm }) => {
 											id="jewelryMaking"
 											value="jewelryMaking"
 										/>
-										<label htmlFor="jewelryMaking" className="text-[12px]">
+										<label htmlFor="jewelryMaking" className="text-[14px]">
 											{" "}
 											jewelryMaking
 										</label>
@@ -204,7 +207,7 @@ const Form = ({ toggleForm }) => {
 										/>
 										<label
 											htmlFor="Weight Loss and Fitness"
-											className="text-[12px]">
+											className="text-[14px]">
 											{" "}
 											Weight Loss and Fitness
 										</label>

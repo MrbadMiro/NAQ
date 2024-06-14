@@ -47,7 +47,7 @@ const About = () => {
 					</div>
 				</div>
 				{/* Right Side */}
-				<div className="order-2 mt-8 md:mt-0 w-full flex flex-col justify-center   items-center md:items-start text-center lg:text-left">
+				<div className="order-2 mt-[50px] md:mt-0 w-full flex flex-col justify-center   items-center md:items-start text-center lg:text-left">
 					<div className="flex gap-2 ">
 						<p className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
 							About NAQ

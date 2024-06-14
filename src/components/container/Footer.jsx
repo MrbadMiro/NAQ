@@ -34,7 +34,7 @@ const Footer = () => {
 			<img
 				src={Courses_leaves}
 				alt=""
-				className="absolute bottom-0 right-0 rotate-180"
+				className="hidden md:flex absolute bottom-0 right-0 rotate-180"
 			/>
 			<img
 				src={flower_4}
@@ -67,9 +67,9 @@ const Footer = () => {
 						</ScrollLink>
 					</div>
 				</div>
-				<div className="mt-3 lg:mt-1">
-					<div className="grid  mt-24 md:grid-cols-4 gap-5    lg:pt-30 justify-between    ">
-						<div className="  flex flex-col col-span-2 ">
+				<div className="mt-3 md:mt-1">
+					<div className="grid  mt-24  md:grid-cols-4 gap-5  grid-col  md:pt-30 justify-between    ">
+						<div className="  flex flex-col md:col-span-2 ">
 							<div className="mt-8 lg:mt-0">
 								<img src={logo} alt="" className="w-[60px] h-[60px] " />
 							</div>

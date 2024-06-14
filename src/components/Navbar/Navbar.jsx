@@ -54,9 +54,9 @@ const Navbar = () => {
 			style={{
 				backgroundColor: scrollY > 50 ? "#FDF2F8" : "transparent",
 			}}>
-			<div className="w-full">
+			<div className="w-[100vw]">
 				<div
-					className={` w-full md:px-12 px-6 flex items-center justify-between  ${
+					className={` w-[100vw] md:px-12 px-6 flex items-center justify-between  ${
 						active ? "py-2 transition-all duration-300" : "py-3"
 					}`}>
 					<div className="flex items-center gap-4">
@@ -73,7 +73,7 @@ const Navbar = () => {
 							<NavLink key={navLink.id} {...navLink} />
 						))}
 					</div>
-					<div className="py-3 px-6 gap-5 text-xl flex flex-row items-center justify-center">
+					<div className="py-3  gap-5 text-xl flex flex-row items-center justify-center">
 						
 							<button
 								type="button"
