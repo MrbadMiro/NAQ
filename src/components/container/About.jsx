@@ -47,7 +47,7 @@ const About = () => {
 					</div>
 				</div>
 				{/* Right Side */}
-				<div className="order-2  w-full flex flex-col justify-center   items-center md:items-start text-center lg:text-left">
+				<div className="order-2 mt-8 md:mt-0 w-full flex flex-col justify-center   items-center md:items-start text-center lg:text-left">
 					<div className="flex gap-2 ">
 						<p className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
 							About NAQ
@@ -55,7 +55,7 @@ const About = () => {
 						<img src={About_Arrow2} alt=""  className="animate-bounce-horizontal"/>
 					</div>
 					<div className="flex flex-col w-full">
-					<p className="  w-full font-extrabold font-cormorant  md:text-[38px] leading-[48.5px]   md:text-left text-center text-[#0D0D0D] ">
+					<p className="  w-full font-extrabold font-cormorant  text-[38px] leading-[48.5px]   md:text-left text-center text-[#0D0D0D] ">
 						Dive into Artistic Excellence <br />
 						<span className="  text-pink-700">
 							Nithiya's Active Queens.
