@@ -120,7 +120,7 @@ const Home = () => {
 					key={i}
 					className={`slide-container ${
 						i === index ? "block" : "hidden"
-					} flex items-center flex-wrap  min-h-screen`}>
+					} flex items-center flex-wrap  `}>
 					<div className="grid lg:grid-cols-2 pt-12   relative gap-5">
 						{/* left side content*/}
 						<div className="  px-2 lg:px-0   lg:pl-10 py-5 flex flex-col justify-center md:items-start items-center mt-4">
@@ -146,7 +146,7 @@ const Home = () => {
 								<img
 									src={slide.imgSrc}
 									alt=""
-									className=" h-full   z-10  object-cover w-[100%] bottom-0  animate-slideImage    "
+									className=" h-[100vh]   z-10  object-cover w-[100%] bottom-0  animate-slideImage    "
 								/>
 							</div>
 							<div className="absolute flex flex-col w-full items-center  justify-center left-1/2 transform -translate-x-1/2 bottom-0">
