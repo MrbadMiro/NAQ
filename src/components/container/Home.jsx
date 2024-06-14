@@ -146,7 +146,7 @@ const Home = () => {
 								<img
 									src={slide.imgSrc}
 									alt=""
-									className=" h-[100vh]   z-10  object-cover w-[100%] bottom-0  animate-slideImage    "
+									className="h-[500px] md:h-[100vh]   z-10  object-cover w-[100%] bottom-0  animate-slideImage    "
 								/>
 							</div>
 							<div className="absolute flex flex-col w-full items-center  justify-center left-1/2 transform -translate-x-1/2 bottom-0">
