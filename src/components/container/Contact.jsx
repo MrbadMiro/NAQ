@@ -385,7 +385,7 @@ Today!
 						Start your journey towards mastering new talents and unleashing your
 						 						creativity.
 						</p>
-						<p className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black mx-24 md:mx-0">
+						<p className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black  md:mx-0">
 							Whether you're passionate about makeup artistry, crafting, baking,
 							or more, our expert-led programs are designed to empower you with
 							practical knowledge and hands-on experience.
