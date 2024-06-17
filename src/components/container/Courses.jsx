@@ -71,7 +71,7 @@ const Courses = () => {
 	return (
 		<>
 		<section
-			className="w-[100vw] relative  h-full flex flex-col items-center justify-center pb:[200px] md:pb-[200px] px-6 md:px-12  gap-6  "
+			className="w-[100vw] relative  h-full flex flex-col items-center justify-center pb:[300px] md:pb-[200px] px-6 md:px-12  gap-6  "
 			id="courses"
 			style={sectionStyle}>
 			<div className=" absolute -top-[500px] md:-top-10 px-6 md:px-12 left-1/2 transform -translate-x-1/2 w-full flex items-center justify-center ">
