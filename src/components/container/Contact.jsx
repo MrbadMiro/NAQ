@@ -365,7 +365,7 @@ const Contact2 = () => {
 						/>
 					</div>
 				</div>
-				<div className="  mt-12 md:mt-0 text-sm font-bold flex flex-col justify-center   items-center  md:items-start  rounded-xl relative ">
+				<div className="  mt-12 md:mt-0 text-sm font-bold flex flex-col justify-center   items-center  md:items-start  rounded-xl relative  mb-24 md:mb-0">
 					<div className="flex gap-2 ">
 						<p className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
 							Contact
@@ -381,7 +381,7 @@ const Contact2 = () => {
 							Join Our Exciting <span className="">Courses</span>
 Today!
 						</h3>
-						<p className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black mx-24 md:mx-0">
+						<p className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black  md:mx-0">
 						Start your journey towards mastering new talents and unleashing your
 						 						creativity.
 						</p>
