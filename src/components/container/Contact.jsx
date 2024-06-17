@@ -334,7 +334,7 @@ const Contact2 = () => {
 	// };
 
 	return (
-		<section className="w-full md:px-12 px-6 py-24 flex relative flex-col  relative bg-" id="contact">
+		<section className="w-full md:px-12 px-6 py-24 flex relative flex-col   bg-" id="contact">
 				<img src={flower_4} alt=""  className="absolute top-0 left-0 opacity-70"/>
 			{/* <img src={About_flower} alt=""  className="absolute -top-4 left-1/2 transform -translate-x-1/2 overflow-hidden "/>	 */}
 
