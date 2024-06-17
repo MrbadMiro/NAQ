@@ -74,7 +74,7 @@ const Courses = () => {
 			className="w-[100vw] relative  h-full flex flex-col items-center justify-center pb:[200px] md:pb-[200px] px-6 md:px-12  gap-6  "
 			id="courses"
 			style={sectionStyle}>
-			<div className=" absolute -top-[500px] md:-top-10 md:px-12 left-1/2 transform -translate-x-1/2 w-full flex items-center justify-center ">
+			<div className=" absolute -top-[500px] md:-top-10 px-6 md:px-12 left-1/2 transform -translate-x-1/2 w-full flex items-center justify-center ">
 				<div className=" w-full -top-[40px] md:-top-12 p-1 boxShadow1   bg-white ">
 					<div className="grid ss md:grid-cols-4 w-full p-4 bg-[#F9F3F0]">
 						<div className="flex flex-cols-2 md:gap-2 gap-4 items-center justify-center">
