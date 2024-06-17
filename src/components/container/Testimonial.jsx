@@ -51,7 +51,7 @@ const Testimonial = () => {
 			<img
 				src={About_leaves}
 				alt=""
-				className="absolute -right-[100px] -z-1 top-0 "
+				className=" hidden md:flex absolute -right-[100px] -z-1 top-0 "
 			/>
 			
 			<h5 className=" text-pink-700  text-center p-2">Testimonials</h5>
