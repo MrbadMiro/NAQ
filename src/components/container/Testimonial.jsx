@@ -54,14 +54,14 @@ const Testimonial = () => {
 				className=" hidden md:flex absolute -right-[100px] -z-1 top-0 "
 			/>
 			
-			<h5 className=" text-pink-700  text-center p-2">Testimonials</h5>
-			<div className="flex w- full  flex-row item-center justify-center mb-6">
+			<h5 data-aos="fade-up" className=" text-pink-700  text-center p-2">Testimonials</h5>
+			<div data-aos="fade-up"  className="flex w- full  flex-row item-center justify-center mb-6">
 				<h3 className="text-[44px]  font-extrabold font-cormorant  md:text-[58px] leading-[50px] md:leading-[64px] md:text-left text-center text-[#0D0D0D] ">
 					What Our Students Say About Courses{" "}
 				</h3>
 				
 			</div>
-			<div className="w-full h-fit pb-6 ">
+			<div  data-aos="zoom-in" data-aos-delay="500"  className="w-full h-fit pb-6 ">
 				<Slider {...settings} className="custom-slider" >
 					{data.map((item, index) => (
 						<div

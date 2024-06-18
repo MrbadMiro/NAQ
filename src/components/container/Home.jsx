@@ -70,20 +70,14 @@ import {
 } from "../../assets";
 
 const slidesData = [
-	{   
-		id:1,
-		title: "01. Website Layout",
-		content:"From Mastering Makeup Artistry and Cake Decorating to Honing YourSkills in Tailoring and Aari Embroidery, We Offer a Diverse Range of Courses to Unlock Your Inner Queen.",
+	{
+		id: 1,
 		imgSrc: hero,
 	},
 	{
-		id:2,
-		title: "02. Website Layout",
-		content:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo maxime nisi ratione eligendi veritatis blanditiis perspiciatis aut, rem, cum, molestiae iste repellendus nesciunt sequi repudiandae exercitationem dolor officiis? Nulla?",
+		id: 2,
 		imgSrc: hero2,
 	},
-
 ];
 
 const Home = () => {
@@ -136,7 +130,9 @@ const Home = () => {
 							</p>
 
 							<p className="mt-4 mb-4 mx-3  font-medium text-[14px] lg:text-[16px] font-cormorant md:text-left text-center animate-slideContent">
-								{slide.content}
+								From Mastering Makeup Artistry and Cake Decorating to Honing
+								YourSkills in Tailoring and Aari Embroidery, We Offer a Diverse
+								Range of Courses to Unlock Your Inner Queen.
 							</p>
 						</div>
 
@@ -150,10 +146,18 @@ const Home = () => {
 								/>
 							</div>
 							<div className="absolute flex flex-col w-full items-center  justify-center left-1/2 transform -translate-x-1/2 bottom-0">
-								<img src={Hero_icon2} alt="" className=" drop-shadow-2xl animate-slideImage2" />
+								<img
+									src={Hero_icon2}
+									alt=""
+									className=" drop-shadow-2xl animate-slideImage2"
+								/>
 							</div>
 							<div className="absolute flex flex-col w-full items-center overflow-hidden justify-center left-1/2 transform -translate-x-1/2 bottom-0">
-								<img src={Hero_icon1} alt=""  className="animate-slideImage3 overflow-hidden"/>
+								<img
+									src={Hero_icon1}
+									alt=""
+									className="animate-slideImage3 overflow-hidden"
+								/>
 							</div>
 						</div>
 					</div>

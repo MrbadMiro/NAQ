@@ -12,21 +12,21 @@ const Gallery = () => {
 	return (
 		<div className="py-[150px] bg-[#BE185D] relative w-full flex flex-col items-start justify-center md:px-12 px-6">
 			<img src={flower_2} alt=""  className="absolute top-0 right-0 animate-spin-slow"/>
-			<div className="w-full">
-				<div className="flex gap-2">
+			<div  className="w-full">
+				<div data-aos="fade-up" className="flex gap-2">
 					<p className="text-[20px]  font-bold font-cormorant   leading-[26px]  text-left text-white ">
 						Our Gallery
 					</p>
 					<img src={Gallery_Arow} alt="" className="animate-bounce-horizontal" />
 				</div>
 
-				<div className="grid md:grid-cols-2 mt-2 items-center justify-between w-full">
-					<div className="flex w-full">
+				<div  className="grid md:grid-cols-2 mt-2 items-center justify-between w-full">
+					<div data-aos="fade-up" className="flex w-full">
 						<p className="text-[48px]  font-bold font-cormorant   leading-[58px]  text-left text-white ">
 							Latest Projects Gallery
 						</p>
 					</div>
-					<div className="grid grid-cols-4 mt-4 md:mt-0 w-full gap-2">
+					<div data-aos="fade-up" className="grid grid-cols-4 mt-4 md:mt-0 w-full gap-2">
 						<div
 							className={`tabs ${
 								activeTab === 1 ? "active-tabs" : ""
@@ -69,7 +69,8 @@ const Gallery = () => {
 					<div
 						className={`content_${activeTab}  w-full  gap-2 grid md:grid-cols-3`}>
 						{filteredServices.map((item, index) => (
-							<div key={index} className=" p-1 bg-white  w-full  relative">
+							<div key={index} data-aos="fade-up"
+							data-aos-delay={item.aosDelay} className=" p-1 bg-white  w-full  relative">
 								<img
 									src={item.image}
 									alt=""

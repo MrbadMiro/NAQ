@@ -24,13 +24,13 @@ const Form = ({ toggleForm }) => {
 	};
 
 	return (
-		<div className="fixed px-3 top-0 left-0 h-full w-[100vw]  bg-black bg-opacity-50 flex justify-center items-center z-30">
+		<div  className="fixed px-3 top-0 left-0 h-full w-[100vw]  bg-black bg-opacity-50 flex justify-center items-center z-30">
 			<div className="bg-white p-8 rounded-lg relative max-h-[90%] overflow-y-auto ">
-				<h3 className="text-[28px]  font-extrabold font-cormorant text-center leading-[34px] mt-[10px] tracking-wide   text-black ">
+				<h3 data-aos="fade-up" className="text-[28px]  font-extrabold font-cormorant text-center leading-[34px] mt-[10px] tracking-wide   text-black ">
 					Join Our Exciting <span className="">Courses</span>
 					Today!
 				</h3>
-				<form className=" mt-4 px-5 py-5 font-semibold flex flex-col justify-center items-center">
+				<form data-aos="fade-up" className=" mt-4 px-5 py-5 font-semibold flex flex-col justify-center items-center">
 					<div className="flex flex-col  gap-5 w-full ">
 						<div className="w-full  ">
 							<div className=" mt-2  mx-auto w-full grid lg:grid-cols-2  gap-4  ">

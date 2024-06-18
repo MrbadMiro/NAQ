@@ -19,7 +19,9 @@ const About = () => {
 		window.location.href = facebookProfileUrl;
 	};
 	return (
-		<div className="section relative mb-[500px] mt-[100px] md:my-[100px]  " id="about">
+		<div
+			className="section relative mb-[500px] mt-[100px] md:my-[100px]  "
+			id="about">
 			<img
 				src={About_leaves}
 				alt=""
@@ -27,7 +29,9 @@ const About = () => {
 			/>
 			<div className="grid md:grid-cols-2 w-full   ">
 				{/* left SIDE */}
-				<div className="flex  order-1 w-full  justify-end px-6 relative">
+				<div
+					data-aos="fade-up"
+					className="flex  order-1 w-full  justify-end px-6 relative">
 					<img
 						className="h-[500px] w-[387px] object-cover rounded-t-[300px] "
 						src={courses_img3}
@@ -48,37 +52,37 @@ const About = () => {
 				</div>
 				{/* Right Side */}
 				<div className="order-2 mt-[50px] md:mt-0 w-full flex flex-col justify-center   items-center md:items-start text-center lg:text-left">
-					<div className="flex gap-2 ">
+					<div data-aos="zoom-in" className="flex gap-2 ">
 						<p className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
 							About NAQ
 						</p>
-						<img src={About_Arrow2} alt=""  className="animate-bounce-horizontal"/>
+						<img
+							src={About_Arrow2}
+							alt=""
+							className="animate-bounce-horizontal"
+						/>
 					</div>
-					<div className="flex flex-col w-full">
-					<p className="  w-full font-extrabold font-cormorant  text-[38px] leading-[48.5px]   md:text-left text-center text-[#0D0D0D] ">
-						Dive into Artistic Excellence <br />
-						<span className="  text-pink-700">
-							Nithiya's Active Queens.
-						</span>
-					</p>
+					<div data-aos="fade-up" data-aos-delay="300" className="flex flex-col w-full">
+						<p className="  w-full font-extrabold font-cormorant  text-[38px] leading-[48.5px]   md:text-left text-center text-[#0D0D0D] ">
+							Dive into Artistic Excellence <br />
+							<span className="  text-pink-700">Nithiya's Active Queens.</span>
+						</p>
 
-					<p className="mt-[20px]  font-normal font-dm_sans  text-[16px]  leading-[28px] md:text-left text-center text-[#6E6E6E] ">
-						Nithiya's Active Queens offers a vibrant tapestry of courses
-						designed to ignite your creativity and empower your personal growth.
-						At NAQ Academy, we believe in transforming lives through the art of
-						beauty. Whether you're a budding entrepreneur or an aspiring makeup
-						artist, our courses are designed to empower you with the skills and
-						knowledge you need to thrive.
-					</p>
-					
-					<p className="mt-[20px]  font-normal font-dm_sans  text-[16px]  leading-[28px] md:text-left text-center text-[#6E6E6E]">
-						Join us and discover your true potential in the world of beauty.
-						Let's embark on this exciting journey together!
-					</p>
+						<p className="mt-[20px]  font-normal font-dm_sans  text-[16px]  leading-[28px] md:text-left text-center text-[#6E6E6E] ">
+							Nithiya's Active Queens offers a vibrant tapestry of courses
+							designed to ignite your creativity and empower your personal
+							growth. At NAQ Academy, we believe in transforming lives through
+							the art of beauty. Whether you're a budding entrepreneur or an
+							aspiring makeup artist, our courses are designed to empower you
+							with the skills and knowledge you need to thrive.
+						</p>
 
+						<p className="mt-[20px]  font-normal font-dm_sans  text-[16px]  leading-[28px] md:text-left text-center text-[#6E6E6E]">
+							Join us and discover your true potential in the world of beauty.
+							Let's embark on this exciting journey together!
+						</p>
 					</div>
 
-				
 					{/* <div className="w-full grid  sm:grid-cols-3  mt-4   item-center text-center lg:text-left">
 						<div className="w-full mb-2 ">
 							<h3 className="text-2xl font-bold md:text-4xl text-pink-700">
@@ -99,7 +103,7 @@ const About = () => {
 							<h5 className="font-semibold w-full text-xs ">Courses</h5>
 						</div>
 					</div> */}
-					<div className="w-full mt-4">
+					<div data-aos="fade-up" className="w-full mt-4">
 						<a
 							href={facebookProfileUrl}
 							target="_blank"

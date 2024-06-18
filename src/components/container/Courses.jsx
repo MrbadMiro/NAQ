@@ -74,7 +74,7 @@ const Courses = () => {
 			className="w-[100vw] relative  h-full flex flex-col items-center justify-center  pb:[300px] md:pb-[200px] px-6 md:px-12  gap-6  "
 			id="courses"
 			style={sectionStyle}>
-			<div className=" absolute -top-[500px] md:-top-10 px-6 md:px-12 left-1/2 transform -translate-x-1/2 w-full flex items-center justify-center ">
+			<div  className=" absolute -top-[500px] md:-top-10 px-6 md:px-12 left-1/2 transform -translate-x-1/2 w-full flex items-center justify-center ">
 				<div className=" w-full -top-[40px] md:-top-12 p-1 boxShadow1   bg-white ">
 					<div className="grid ss md:grid-cols-4 w-full p-4 bg-[#F9F3F0]">
 						<div className="flex flex-cols-2 md:gap-2 gap-4 items-center justify-center">
@@ -142,13 +142,13 @@ const Courses = () => {
 				alt=""
 				className="absolute bottom-0 left-0 animate-bounce-slow"
 			/>
-			<h5 className="  flex flex-col mt-24  text-center p-2">
+			<h5 data-aos="fade-up" className="  flex flex-col mt-24  text-center p-2">
 				<p className="text-[20px]  font-bold font-cormorant   leading-[26px]   md:text-left text-center text-[#E24486] ">
 					Find Your Passion and Unlock Your Potential.
 				</p>
 				<img src={Hero_Arrow} alt="" />
 			</h5>
-			<div className="flex w- full  flex-row item-center justify-center ">
+			<div data-aos="fade-up" className="flex w- full  flex-row item-center justify-center ">
 				<h3 className="  text-center  ">
 					<p className="text-[44px]  font-extrabold font-cormorant  md:text-[48px] leading-[50px] md:leading-[58.9px]  text-center text-[#0D0D0D] ">
 						Master Beauty Skills with NAQ
@@ -207,6 +207,8 @@ const Courses = () => {
 						<div
 							id="Slider-Boxes"
 							key={index}
+							data-aos="fade-up"
+							data-aos-delay={item.aosDelay}
 							className="p-4 boxShadow1 min-w-[full] bg-white flex relative flex-col overflow  group   overflow-hidden   before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full">
 								<img src={Courses_flower} alt="" className="absolute top-0 left-4 group-hover:opacity-10" />
 								<img src={Courses_Circle} alt="" className="absolute -right-4 -top-4" />

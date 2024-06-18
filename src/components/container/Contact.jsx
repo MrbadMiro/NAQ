@@ -270,6 +270,8 @@ import {
 	Courses_flower,
 	About_flower,
 	courses_img1,
+	courses_img3,
+	 
 	flower_4,
 } from "../../assets";
 const Contact2 = () => {
@@ -346,7 +348,7 @@ const Contact2 = () => {
 					</p>
 
 				</div> */}
-				<div className="flex  order-1 w-full  justify-start  relative">
+				<div data-aos="fade-up" className="flex  order-1 w-full  justify-start  relative">
 					<img
 						src={courses_img1}
 						alt=""
@@ -355,7 +357,7 @@ const Contact2 = () => {
 					<div className="absolute -right-4">
 						<img
 							className=" -z-20 h-[500px] w-[387px] object-cover rounded-t-[300px] -left-4  bottom-0  "
-							src={courses_img1}
+							src={courses_img3}
 							alt="Hero-image"
 						/>
 						<img
@@ -366,8 +368,8 @@ const Contact2 = () => {
 					</div>
 				</div>
 				<div className="  mt-12 md:mt-0 text-sm font-bold flex flex-col justify-center   items-center  md:items-start  rounded-xl relative  mb-24 md:mb-0">
-					<div className="flex gap-2 ">
-						<p className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
+					<div data-aos="fade-up" className="flex gap-2 ">
+						<p  className="  text-[20px]  font-bold font-cormorant    leading-[26px]  md:text-left text-center text-[#E24486] ">
 							Contact
 						</p>
 						<img
@@ -376,16 +378,16 @@ const Contact2 = () => {
 							className="animate-bounce-horizontal"
 						/>
 					</div>
-					<div className="flex flex-col gap-2">
-						<h3 className="text-[40px]  font-extrabold font-cormorant  leading-[50px] mt-[10px] tracking-wide  text-center md:text-left text-black ">
+					<div  className="flex flex-col gap-2">
+						<h3 data-aos="fade-up" className="text-[40px]  font-extrabold font-cormorant  leading-[50px] mt-[10px] tracking-wide  text-center md:text-left text-black ">
 							Join Our Exciting <span className="">Courses</span>
 Today!
 						</h3>
-						<p className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black  md:mx-0">
+						<p data-aos="fade-up"  className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black  md:mx-0">
 						Start your journey towards mastering new talents and unleashing your
 						 						creativity.
 						</p>
-						<p className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black  md:mx-0">
+						<p data-aos="fade-up" className="font-normal font-dm_sans text-center text-[16px] mt-[10px] leading-[28px]  md:text-left  text-black  md:mx-0">
 							Whether you're passionate about makeup artistry, crafting, baking,
 							or more, our expert-led programs are designed to empower you with
 							practical knowledge and hands-on experience.
@@ -393,6 +395,7 @@ Today!
 					</div>
 
 					<button
+					data-aos="fade-up"
 						className="overflow rounded-md bg-pink-700 mt-4 bg-[#] group relative overflow-hidden text-[12px]  text-white px-4 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full"
 						onClick={toggleForm1}>
 						<span className="relative z-10 block transition-colors duration-300 group-hover:text-white">

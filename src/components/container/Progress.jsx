@@ -14,7 +14,7 @@ const Progress = () => {
         <section className="flex flex-col  items-center justify-center w-full py-4 relative">
             <img src={Courses_leaves} alt="" className="absolute -top-24 -left-8" />
             <img src={About_leaves} alt=""  className="absolute bottom-0 -right-24 animate-bounce-slow"/>
-            <div className="py-20  grid md:grid-cols-4 grid-cols-2 items-center justify-center text-pink-700 text-4xl sm:text-7xl md:gap-20 gap-10 md:px-12 px-6">
+            <div  data-aos="zoom-in" className="py-20  grid md:grid-cols-4 grid-cols-2 items-center justify-center text-pink-700 text-4xl sm:text-7xl md:gap-20 gap-10 md:px-12 px-6">
                 <div className="w-[150px] h-[150px] xs:w-[200px] xs:h-[200px] rounded-full bg-[#EFEFEF] boxShadow2 flex items-center justify-center">
                     <div className="w-inherit h-auto">
                         <FaPaintBrush className="w-full" />

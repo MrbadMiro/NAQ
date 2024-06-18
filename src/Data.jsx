@@ -73,21 +73,21 @@ export const courses = [
 		image: Courses_icon1,
 		category: " Beauty & Style",
 		title: "We have carefully designed our salon to provide a relaxing and welcoming atmosphere for our clients. As soon as you step through our door, you'll be greeted with a warm.",
-		
+		aosDelay: "0",
 	},
 	{
 		id: 2,
 		image: Courses_icon1,
 		category: "Culinary Delights",
 		title: "We have carefully designed our salon to provide a relaxing and welcoming atmosphere for our clients. As soon as you step through our door, you'll be greeted with a warm.",
-		 
+		aosDelay: "500",
 	},
 	{
 		id: 3,
 		image: Courses_icon1,
 		category: "Creative Crafts",
 		title: "We have carefully designed our salon to provide a relaxing and welcoming atmosphere for our clients. As soon as you step through our door, you'll be greeted with a warm.",
-		 
+		aosDelay: "1000",
 	},
 	{
 		id: 4,
@@ -111,36 +111,43 @@ export const Gallery_data = [
 		id: 1,
 		image: courses1,
 		tab: 1,
+		aosDelay: "0",
 	},
 	{
 		id: 2,
 		image: courses1,
 		tab: 1,
+		aosDelay: "500",
 	},
 	{
 		id: 3,
 		image: courses1,
 		tab: 1,
+		aosDelay: "1000",
 	},
 	{
 		id: 4,
 		image: courses1,
 		tab: 1,
+		aosDelay: "1500",
 	},
 	{
 		id: 5,
 		image: courses1,
 		tab: 2,
+		aosDelay: "0",
 	},
 	{
 		id: 5,
 		image: courses1,
 		tab: 2,
+		aosDelay: "500",
 	},
 	{
 		id: 6,
 		image: courses1,
 		tab: 2,
+		aosDelay: "1000",
 	},
 	{
 		id: 7,
