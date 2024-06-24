@@ -218,10 +218,10 @@ const Courses = () => {
 									<img src={item.image} alt="" className="z-10 course-icon transition-all duration-300 " />
 								</div>
 								<div className="flex flex-col pb-[21px] border-b border-dotted  ">
-									<p className="  font-extrabold font-cormorant   text-[30px] leading-[40px]   text-left   text-black  relative z-10 block transition-colors duration-300 group-hover:text-white">
+									<p className="  font-extrabold font-cormorant md:h-[40px] h-[80px] text-[30px] leading-[40px]   text-left   text-black  relative z-10 block transition-colors duration-300 group-hover:text-white">
 										{item.category}
 									</p>
-									<p className="font-normal font-dm_sans h-[110px]  text-[16px]  leading-[28px]   text-[#6E6E6E] mt-[10px] relative z-10 block transition-colors duration-300 group-hover:text-white ">
+									<p className="font-normal font-dm_sans md:h-[110px] h-[120px] text-[16px]  leading-[28px]   text-[#6E6E6E] mt-[10px] relative z-10 block transition-colors duration-300 group-hover:text-white ">
 										{item.title}
 									</p>
 								</div>
