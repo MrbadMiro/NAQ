@@ -209,11 +209,11 @@ const Courses = () => {
 							key={index}
 							data-aos="fade-up"
 							data-aos-delay={item.aosDelay}
-							className="p-4 boxShadow1 min-w-[full] h-full bg-white flex relative flex-col overflow  group   overflow-hidden   before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full">
+							className="p-4 boxShadow1 min-w-[full]  bg-white flex relative flex-col overflow  group   overflow-hidden   before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full">
 								<img src={Courses_flower} alt="" className="absolute top-0 left-4 group-hover:opacity-10" />
 								<img src={Courses_Circle} alt="" className="absolute -right-4 -top-4" />
 								<img src={Courses_icon2} alt="" className="absolute right-4 top-4" onClick={toggleForm1} />
-							<div className="flex flex-col ">
+							<div className="flex flex-col  ">
 								<div className="flex">
 									<img src={item.image} alt="" className="z-10 course-icon transition-all duration-300 " />
 								</div>
@@ -221,7 +221,7 @@ const Courses = () => {
 									<p className="  font-extrabold font-cormorant   text-[30px] leading-[40px]   text-left   text-black  relative z-10 block transition-colors duration-300 group-hover:text-white">
 										{item.category}
 									</p>
-									<p className="font-normal font-dm_sans  text-[16px]  leading-[28px]   text-[#6E6E6E] mt-[10px] relative z-10 block transition-colors duration-300 group-hover:text-white ">
+									<p className="font-normal font-dm_sans h-[110px]  text-[16px]  leading-[28px]   text-[#6E6E6E] mt-[10px] relative z-10 block transition-colors duration-300 group-hover:text-white ">
 										{item.title}
 									</p>
 								</div>
