@@ -34,7 +34,7 @@ const Footer = () => {
 				<img
 					src={Courses_leaves}
 					alt=""
-					className="hidden md:flex absolute bottom-0 right-0 rotate-180"
+					className="hidden md:flex absolute bottom-0 -right-8 rotate-180"
 				/>
 				<img
 					src={flower_4}
