@@ -123,7 +123,7 @@ export const courses = [
 	{
 		id: 5,
 		image: Courses_icon1,
-		category: "mehendi",
+		category: "Mehendi",
 		title: "Learn this traditional art of Mehendi. Various styles and techniques to create beautiful Henna design.",
 		price: "LKR.18000",
 		 
