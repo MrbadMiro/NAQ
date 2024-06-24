@@ -92,7 +92,7 @@ export const courses = [
 	{
 		id: 1,
 		image: Courses_icon1,
-		category: " Beauty and Hair dressing ",
+		category: " Beauty & Hair dressing ",
 		title: "Look like those professional beauticians and hairdressers. Get full beauty treatment here from hair cutting to facial.",
 		price:"LKR.59000",
 		aosDelay: "0",
