@@ -1,2 +1,6 @@
 className="text-[44px]  font-extrabold font-cormorant  md:text-[70px] leading-[50px] md:leading-[84px] md:text-left text-center text-[#0D0D0D] "
 animate-bounce-horizontal
+
+
+overflow  group relative overflow-hidden   before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-[#E24486] before:transition-transform before:duration-500 hover:before:-translate-y-full
+relative z-10 block transition-colors duration-300 group-hover:text-white

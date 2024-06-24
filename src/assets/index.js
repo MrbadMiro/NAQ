@@ -30,6 +30,8 @@ import Courses_bg from "./Courses_bg.svg";
 import Courses_leaves from "./Courses_leaves.svg";
 
 import courses_img1 from "./Courses_img1.jpg";
+import CulinaryDelights_img1 from "./CulinaryDelights_img1.svg";
+import CulinaryDelights_img2 from "./CulinaryDelights_img1.svg";
 import courses_img2 from "./Courses_img1.jpg";
 import courses_img3 from "./Courses_img3.jpg";
 import courses_img4 from "./Courses_img4.jpg";
@@ -65,6 +67,8 @@ export {
 	About_Arrow2,
 
 	//Courses
+	CulinaryDelights_img1,
+	CulinaryDelights_img2,
 	Courses_Circle,
 	Courses_flower,
 	Courses_icon1,

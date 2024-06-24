@@ -29,7 +29,7 @@ module.exports = {
 				"pulse-slow": " pulse 3s linear infinite",
 				"spin-slow": " spin 3s linear infinite",
 				slide: "slide 25s linear infinite",
-				'bounce-horizontal': 'bounce-horizontal 3s linear infinite',
+				'bounce-horizontal': 'bounce_horizontal 3s linear infinite',
 			},
 		},
 		screens: {

@@ -74,7 +74,7 @@ const Gallery = () => {
 								<img
 									src={item.image}
 									alt=""
-									className="h-full w-full object-cover "
+									className="h-[300px] w-full object-cover "
 								/>
 							</div>
 						))}
